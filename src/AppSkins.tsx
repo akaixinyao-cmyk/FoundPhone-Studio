@@ -97,8 +97,10 @@ function MessageList({
   whatsapp?: boolean; extraCount?: number;
 }) {
   const historyItems = whatsapp ? items.filter((i) => i.folder === "历史记录") : [];
-  const liveItems = whatsapp ? items.filter((i) => i.folder !== "历史记录") : items;
-const [visibleCount, setVisibleCount] = useState(() => (liveItems.length > 0 ? 1 : 0));
+  const liveItems = whatsapp ? items.filter((i) => i.folder !== "历史记录") : items; 
+  const hasPart2 = liveItems.some((i) => i.id.startsWith("msg-sami-p2-"));
+  const part1Count = liveItems.filter((i) => !i.id.startsWith("msg-sami-p2-")).length;
+const [visibleCount, setVisibleCount] = useState(() => (hasPart2 ? part1Count + 1 : liveItems.length > 0 ? 1 : 0));
 const readTriggeredRef = useRef<Set<string>>(new Set());
 const containerRef = useRef<HTMLDivElement>(null);
 const historyReturnedRef = useRef(false); const historyTimerRef = useRef<number | null>(null); const justClickedRef = useRef(false); useEffect(() => () => { if (historyTimerRef.current !== null) { window.clearTimeout(historyTimerRef.current); historyTimerRef.current = null; } }, []);
