@@ -1,6 +1,6 @@
 import { NativeComposer } from "./DeviceSystem";
 import { useSkinState } from "./skinState";
-import { useState } from "react";
+import { useState, Fragment, useEffect, useRef } from "react";
 import {
   ChevronLeft,
   Plus,
@@ -96,39 +96,26 @@ function MessageList({
   onRead: (id: string) => void;
   whatsapp?: boolean;
 }) {
+  const historyItems = whatsapp ? items.filter((i) => i.folder === "历史记录") : [];
+  const liveItems = whatsapp ? items.filter((i) => i.folder !== "历史记录") : items;
+const [visibleCount, setVisibleCount] = useState(() => (liveItems.length > 0 ? 1 : 0));
+const readTriggeredRef = useRef<Set<string>>(new Set());
+const containerRef = useRef<HTMLDivElement>(null);
+useEffect(() => { if (!whatsapp || creator || visibleCount >= liveItems.length) return; const timer = setInterval(() => setVisibleCount((prev) => (prev < liveItems.length ? prev + 1 : prev)), 500); return () => clearInterval(timer); }, [whatsapp, creator, visibleCount, liveItems.length]);
+useEffect(() => { if (!whatsapp || creator || visibleCount <= 0) return; const item = liveItems[visibleCount - 1]; if (item && !readTriggeredRef.current.has(item.id)) { readTriggeredRef.current.add(item.id); onRead(item.id); } }, [whatsapp, creator, visibleCount, liveItems, onRead]);
+useEffect(() => { if (!whatsapp || creator) return; if (containerRef.current) containerRef.current.scrollTop = containerRef.current.scrollHeight; }, [whatsapp, creator, visibleCount]);
+const displayed = whatsapp ? [...historyItems, ...liveItems.slice(0, creator ? liveItems.length : visibleCount)] : items;
   return (
-    <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
-      <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>
-      {items.map((i, idx) => { const sameSender = whatsapp && idx > 0 && items[idx - 1].outgoing === i.outgoing && items[idx - 1].sender === i.sender; return (
-        <div
-          key={i.id}
-          className={`skin-message ${i.outgoing ? "outgoing" : ""} ${sameSender ? "same-sender" : ""}`}
-        >
-          {!whatsapp && !i.outgoing && (
-            <Avatar name={i.sender} src={i.avatar} />
-          )}
-          <button
-            className="skin-bubble"
-            onClick={() => (creator ? onItem(i) : onRead(i.id))}
-          >
-            {["image", "audio", "video"].includes(i.kind) ? (
-              <ItemMedia item={i} />
-            ) : i.kind === "transfer" ? (
-              <div className="skin-transfer">
-                ¥ {i.body}
-                <small>转账记录 · 虚构</small>
-              </div>
-            ) : (
-              i.body
-            )}
-            <small className={whatsapp ? undefined : "wx-message-time"}>
-              {i.time.slice(-5)}{" "}
-              {whatsapp && i.outgoing && <CheckCheck size={12} color={i.read ? "#53bdeb" : "#8696a0"} />}
-            </small>
-          </button>
-          {!whatsapp && i.outgoing && <Avatar name={i.sender} src={i.avatar} />}
-        </div>
-      ); })}
+    <div ref={whatsapp ? containerRef : undefined} className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
+    {!whatsapp && <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>}
+{displayed.map((i, idx) => {
+const sameSender = whatsapp && idx > 0 && displayed[idx - 1].outgoing === i.outgoing && displayed[idx - 1].sender === i.sender;
+const curDate = i.time.slice(0, 10);
+const prevDate = idx > 0 ? displayed[idx - 1].time.slice(0, 10) : "";
+const showDate = whatsapp && curDate && curDate !== prevDate;
+const waMeta = whatsapp ? <small className="wa-msg-meta">{i.time.slice(-5)}{i.outgoing && <CheckCheck size={12} color={i.read ? "#53bdeb" : "#8696a0"} />}</small> : null;
+return (<Fragment key={i.id}>{showDate && <div className="skin-date">{curDate}</div>}<div className={`skin-message ${i.outgoing ? "outgoing" : ""} ${sameSender ? "same-sender" : ""}`}>{!whatsapp && !i.outgoing && <Avatar name={i.sender} src={i.avatar} />}{whatsapp && i.outgoing && waMeta}<button className="skin-bubble" onClick={() => (creator ? onItem(i) : onRead(i.id))}>{["image", "audio", "video"].includes(i.kind) ? <ItemMedia item={i} /> : i.kind === "transfer" ? <div className="skin-transfer">¥ {i.body}<small>转账记录 · 虚构</small></div> : whatsapp && i.kind === "call" ? <span className="skin-call-inline">{i.body.toLowerCase().includes("video") ? <Video size={14} /> : <Phone size={14} />}{i.body}</span> : i.body}{!whatsapp && <small className="wx-message-time">{i.time.slice(-5)} </small>}</button>{whatsapp && !i.outgoing && waMeta}{!whatsapp && i.outgoing && <Avatar name={i.sender} src={i.avatar} />}</div></Fragment>);
+})}
     </div>
   );
 }
