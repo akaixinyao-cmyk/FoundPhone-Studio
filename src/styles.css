@@ -4942,4 +4942,4 @@ label {
 }
 @keyframes rebootSpin {
   to { transform: rotate(360deg); }
-}
+} .wa-compose-form { display: flex; align-items: center; gap: 6px; flex: 1; } .wa-real-input { flex: 1; min-width: 0; background: #fff; border: 0; border-radius: 999px; padding: 7px 12px; font-size: 13px; color: #111b21; outline: none; } .wa-send-btn { width: 32px; height: 32px; border-radius: 50%; background: #00a884; color: #fff; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
