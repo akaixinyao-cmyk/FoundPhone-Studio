@@ -103,7 +103,7 @@ const readTriggeredRef = useRef<Set<string>>(new Set());
 const containerRef = useRef<HTMLDivElement>(null);
 useEffect(() => { if (!whatsapp || creator || visibleCount >= liveItems.length) return; const timer = setInterval(() => setVisibleCount((prev) => (prev < liveItems.length ? prev + 1 : prev)), 500); return () => clearInterval(timer); }, [whatsapp, creator, visibleCount, liveItems.length]);
 useEffect(() => { if (!whatsapp || creator || visibleCount <= 0) return; const item = liveItems[visibleCount - 1]; if (item && !readTriggeredRef.current.has(item.id)) { readTriggeredRef.current.add(item.id); onRead(item.id); } }, [whatsapp, creator, visibleCount, liveItems, onRead]);
-useEffect(() => { if (!whatsapp || creator) return; if (containerRef.current) containerRef.current.scrollTop = containerRef.current.scrollHeight; }, [whatsapp, creator, visibleCount]);
+useEffect(() => { if (!whatsapp || creator) return; const el = containerRef.current; if (el && (visibleCount <= 2 || el.scrollHeight - el.scrollTop - el.clientHeight < 120)) el.scrollTop = el.scrollHeight; }, [whatsapp, creator, visibleCount]);
 const displayed = whatsapp ? [...historyItems, ...liveItems.slice(0, creator ? liveItems.length : visibleCount)] : items;
   return (
     <div ref={whatsapp ? containerRef : undefined} className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
