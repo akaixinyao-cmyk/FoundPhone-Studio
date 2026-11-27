@@ -97,14 +97,14 @@
   color: inherit;
 }
 .catalog-avatar {
-  width: 38px;
-  height: 38px;
+  width: 28px;
+  height: 28px;
   display: grid;
   place-items: center;
   border-radius: 6px;
   background: #aab6ba;
   color: white;
-  font-size: 17px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 .catalog-avatar.round {
