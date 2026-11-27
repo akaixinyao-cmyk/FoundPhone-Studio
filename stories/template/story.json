@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 2,
+  "revision": 3,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -13,7 +13,10 @@
     "passcode": "",
     "theme": "light",
     "wallpaper": "apple-wwdc26",
-    "notifications": true
+    "notifications": true,
+    "skipLock": true,
+    "startApp": "whatsapp",
+    "startThread": "Sami"
   },
   "installedApps": [
     "appstore",
@@ -23,7 +26,7 @@
     "photos",
     "notes",
     "settings",
-    "kakao"
+    "whatsapp"
   ],
   "contacts": [
     {
@@ -37,7 +40,7 @@
   "chats": [
     {
       "id": "chat-sami-pinned",
-      "app": "kakao",
+      "app": "whatsapp",
       "title": "Sami",
       "participants": [
         "owner",
@@ -46,7 +49,7 @@
       "messages": [
         {
           "id": "msg-sami-1",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你好，我捡到了这个号主的电话，请问怎么把手机归还给号主？",
           "time": "2026-06-19 02:52",
           "sender": "Theo Walcott",
@@ -60,7 +63,7 @@
         },
         {
           "id": "msg-sami-2",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "？？？你有病吧",
           "time": "2026-06-19 02:52",
           "sender": "Sami",
@@ -73,7 +76,7 @@
         },
         {
           "id": "msg-sami-3",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "这么多年不联系，然后用装作手机丢了的方法联系我",
           "time": "2026-06-19 02:53",
           "sender": "Sami",
@@ -86,7 +89,7 @@
         },
         {
           "id": "msg-sami-4",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "有大病",
           "time": "2026-06-19 02:53",
           "sender": "Sami",
@@ -99,7 +102,7 @@
         },
         {
           "id": "msg-sami-5",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "不是，你可能误会了，我是真的捡到手机的人。",
           "time": "2026-06-19 02:54",
           "sender": "Theo Walcott",
@@ -113,7 +116,7 @@
         },
         {
           "id": "msg-sami-6",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "别装了",
           "time": "2026-06-19 02:54",
           "sender": "Sami",
@@ -126,7 +129,7 @@
         },
         {
           "id": "msg-sami-7",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "那么多聊天记录里还能翻到我也是挺不容易的",
           "time": "2026-06-19 02:55",
           "sender": "Sami",
@@ -139,7 +142,7 @@
         },
         {
           "id": "msg-sami-8",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我没有翻，你是置顶的聊天，所以我才给你发消息，想着你应该是号主很亲近的人，可以很快联系到他",
           "time": "2026-06-19 02:56",
           "sender": "Theo Walcott",
@@ -153,7 +156,7 @@
         },
         {
           "id": "msg-sami-9",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "不是，看了我的名字你不知道我是谁？不知道搜一下的吗？",
           "time": "2026-06-19 02:57",
           "sender": "Sami",
@@ -166,7 +169,7 @@
         },
         {
           "id": "msg-sami-10",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "备注只是 Sami 实在是猜不到😂",
           "time": "2026-06-19 02:58",
           "sender": "Theo Walcott",
@@ -180,7 +183,7 @@
         },
         {
           "id": "msg-sami-11",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "真的吗？",
           "time": "2026-06-19 03:00",
           "sender": "Sami",
@@ -193,7 +196,7 @@
         },
         {
           "id": "msg-sami-12",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "历史消息你也看不到吗？",
           "time": "2026-06-19 03:00",
           "sender": "Sami",
@@ -206,7 +209,7 @@
         },
         {
           "id": "msg-sami-13",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "额，看到了，就是你俩正常聊天，然后最后几条是你发的",
           "time": "2026-06-19 03:02",
           "sender": "Theo Walcott",
@@ -220,7 +223,7 @@
         },
         {
           "id": "msg-sami-14",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我对别人的隐私没有兴趣",
           "time": "2026-06-19 03:34",
           "sender": "Theo Walcott",
@@ -234,7 +237,7 @@
         },
         {
           "id": "msg-sami-15",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "看看日期吧",
           "time": "2026-06-19 03:34",
           "sender": "Sami",
@@ -247,7 +250,7 @@
         },
         {
           "id": "msg-sami-16",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "2013年？",
           "time": "2026-06-19 03:35",
           "sender": "Theo Walcott",
@@ -261,7 +264,7 @@
         },
         {
           "id": "msg-sami-17",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "wtf",
           "time": "2026-06-19 03:35",
           "sender": "Theo Walcott",
@@ -275,7 +278,7 @@
         },
         {
           "id": "msg-sami-18",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "为什么你的聊天还是置顶的？",
           "time": "2026-06-19 03:36",
           "sender": "Theo Walcott",
@@ -289,7 +292,7 @@
         },
         {
           "id": "msg-sami-19",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我tm怎么知道",
           "time": "2026-06-19 03:36",
           "sender": "Sami",
@@ -302,7 +305,7 @@
         },
         {
           "id": "msg-sami-20",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你去问号主",
           "time": "2026-06-19 03:36",
           "sender": "Sami",
@@ -315,7 +318,7 @@
         },
         {
           "id": "msg-sami-21",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我有点好奇了",
           "time": "2026-06-19 03:37",
           "sender": "Theo Walcott",
@@ -329,7 +332,7 @@
         },
         {
           "id": "msg-sami-22",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你俩什么关系？",
           "time": "2026-06-19 03:38",
           "sender": "Theo Walcott",
@@ -343,7 +346,7 @@
         },
         {
           "id": "msg-sami-23",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "关你什么事？",
           "time": "2026-06-19 03:38",
           "sender": "Sami",
@@ -356,7 +359,7 @@
         },
         {
           "id": "msg-sami-24",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "好歹我也是捡到这个手机的人。。。",
           "time": "2026-06-19 03:38",
           "sender": "Theo Walcott",
@@ -370,7 +373,7 @@
         },
         {
           "id": "msg-sami-25",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "所以？",
           "time": "2026-06-19 03:39",
           "sender": "Sami",
@@ -383,7 +386,7 @@
         },
         {
           "id": "msg-sami-26",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "没有功劳也有苦劳吧",
           "time": "2026-06-19 03:39",
           "sender": "Theo Walcott",
@@ -397,7 +400,7 @@
         },
         {
           "id": "msg-sami-27",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "给我八卦一下呗",
           "time": "2026-06-19 03:40",
           "sender": "Theo Walcott",
@@ -411,7 +414,7 @@
         },
         {
           "id": "msg-sami-28",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你是不是有病",
           "time": "2026-06-19 03:40",
           "sender": "Sami",
@@ -424,7 +427,7 @@
         },
         {
           "id": "msg-sami-29",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "刚刚还说对别人隐私不感兴趣",
           "time": "2026-06-19 03:40",
           "sender": "Sami",
@@ -437,7 +440,7 @@
         },
         {
           "id": "msg-sami-30",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "可是十多年没联系，聊天记录一直是置顶的真的很奇怪啊",
           "time": "2026-06-19 03:41",
           "sender": "Theo Walcott",
@@ -451,7 +454,7 @@
         },
         {
           "id": "msg-sami-31",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "他不会一直还没放下吧？",
           "time": "2026-06-19 03:42",
           "sender": "Theo Walcott",
@@ -465,7 +468,7 @@
         },
         {
           "id": "msg-sami-32",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我怎么知道？",
           "time": "2026-06-19 03:10",
           "sender": "Sami",
@@ -478,7 +481,7 @@
         },
         {
           "id": "msg-sami-33",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "那你呢？",
           "time": "2026-06-19 03:12",
           "sender": "Theo Walcott",
@@ -492,7 +495,7 @@
         },
         {
           "id": "msg-sami-34",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你不会是他找来恶作剧我的人吧？",
           "time": "2026-06-19 03:15",
           "sender": "Sami",
@@ -505,7 +508,7 @@
         },
         {
           "id": "msg-sami-35",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "真不是",
           "time": "2026-06-19 03:15",
           "sender": "Theo Walcott",
@@ -519,7 +522,7 @@
         },
         {
           "id": "msg-sami-36",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "所以你没放下？",
           "time": "2026-06-19 03:16",
           "sender": "Theo Walcott",
@@ -533,7 +536,7 @@
         },
         {
           "id": "msg-sami-37",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "不然你的态度也太过激了吧",
           "time": "2026-06-19 03:16",
           "sender": "Theo Walcott",
@@ -547,7 +550,7 @@
         },
         {
           "id": "msg-sami-38",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "我说话就这样的",
           "time": "2026-06-19 03:16",
           "sender": "Sami",
@@ -560,7 +563,7 @@
         },
         {
           "id": "msg-sami-39",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "那你告诉我你放没放下吧",
           "time": "2026-06-19 03:17",
           "sender": "Theo Walcott",
@@ -574,7 +577,7 @@
         },
         {
           "id": "msg-sami-40",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "不管你的事",
           "time": "2026-06-19 03:17",
           "sender": "Sami",
@@ -587,7 +590,7 @@
         },
         {
           "id": "msg-sami-41",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "你去找其他的联系人吧",
           "time": "2026-06-19 03:18",
           "sender": "Sami",
@@ -600,7 +603,7 @@
         },
         {
           "id": "msg-sami-42",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "再问拉黑",
           "time": "2026-06-19 03:18",
           "sender": "Sami",
@@ -613,7 +616,7 @@
         },
         {
           "id": "msg-sami-43",
-          "title": "2026-06-19",
+          "title": "Sami",
           "body": "好吧。。。",
           "time": "2026-06-19 03:18",
           "sender": "Theo Walcott",
@@ -640,7 +643,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "KakaoTalk：置顶联系人 Sami"
+          "value": "WhatsApp：置顶联系人 Sami"
         }
       ],
       "next": [
