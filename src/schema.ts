@@ -106,6 +106,9 @@ export const workSchema = z.object({
     battery: z.number().min(0).max(100),
     network: z.string(),
     notifications: z.boolean(),
+    skipLock: z.boolean().optional(),
+    startApp: z.string().optional(),
+    startThread: z.string().optional(),
   }),
   apps: z
     .array(
