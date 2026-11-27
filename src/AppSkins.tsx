@@ -99,10 +99,10 @@ function MessageList({
   return (
     <div className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
       <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>
-      {items.map((i) => (
+      {items.map((i, idx) => { const sameSender = whatsapp && idx > 0 && items[idx - 1].outgoing === i.outgoing && items[idx - 1].sender === i.sender; return (
         <div
           key={i.id}
-          className={`skin-message ${i.outgoing ? "outgoing" : ""}`}
+          className={`skin-message ${i.outgoing ? "outgoing" : ""} ${sameSender ? "same-sender" : ""}`}
         >
           {!whatsapp && !i.outgoing && (
             <Avatar name={i.sender} src={i.avatar} />
@@ -123,12 +123,12 @@ function MessageList({
             )}
             <small className={whatsapp ? undefined : "wx-message-time"}>
               {i.time.slice(-5)}{" "}
-              {whatsapp && i.outgoing && <CheckCheck size={11} />}
+              {whatsapp && i.outgoing && <CheckCheck size={12} color={i.read ? "#53bdeb" : "#8696a0"} />}
             </small>
           </button>
           {!whatsapp && i.outgoing && <Avatar name={i.sender} src={i.avatar} />}
         </div>
-      ))}
+      ); })}
     </div>
   );
 }
@@ -525,7 +525,7 @@ export function WhatsAppSkin(p: SkinProps) {
   const name = tab === "聊天" ? p.name : tab;
   return (
     <div className="whatsapp-ui independent-skin">
-      <div className="app-nav wa-nav">
+      {!p.thread && (<div className="app-nav wa-nav">
         <button
           aria-label="返回"
           onClick={() => (p.thread ? p.onThread("") : p.onBack())}
@@ -546,7 +546,7 @@ export function WhatsAppSkin(p: SkinProps) {
         >
           {p.creator ? <Plus size={21} /> : <Search size={20} />}
         </button>
-      </div>
+      </div>)}
       {p.thread ? (
         <>
           <div className="wa-thread-profile">
