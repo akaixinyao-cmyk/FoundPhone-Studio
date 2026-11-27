@@ -684,7 +684,7 @@ function PhoneRuntime({
               className="device-banner"
               onClick={() => {
                 setBanner("");
-                setPanel("notification");
+                if (banner.includes("历史记录")) { setApp("whatsapp"); window.dispatchEvent(new CustomEvent("fp-scroll-history-top")); } else { setPanel("notification"); }
               }}
             >
               <AppIcon
