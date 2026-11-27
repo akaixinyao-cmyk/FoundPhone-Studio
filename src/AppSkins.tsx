@@ -101,12 +101,12 @@ function MessageList({
 const [visibleCount, setVisibleCount] = useState(() => (liveItems.length > 0 ? 1 : 0));
 const readTriggeredRef = useRef<Set<string>>(new Set());
 const containerRef = useRef<HTMLDivElement>(null);
-useEffect(() => { if (!whatsapp || creator || visibleCount >= liveItems.length) return; const timer = setInterval(() => setVisibleCount((prev) => (prev < liveItems.length ? prev + 1 : prev)), 500); return () => clearInterval(timer); }, [whatsapp, creator, visibleCount, liveItems.length]);
+const historyReturnedRef = useRef(false); const historyTimerRef = useRef<number | null>(null); const justClickedRef = useRef(false); useEffect(() => () => { if (historyTimerRef.current !== null) { window.clearTimeout(historyTimerRef.current); historyTimerRef.current = null; } }, []);
 useEffect(() => { if (!whatsapp || creator || visibleCount <= 0) return; const item = liveItems[visibleCount - 1]; if (item && !readTriggeredRef.current.has(item.id)) { readTriggeredRef.current.add(item.id); onRead(item.id); } }, [whatsapp, creator, visibleCount, liveItems, onRead]);
-useEffect(() => { if (!whatsapp || creator) return; const el = containerRef.current; if (el && (visibleCount <= 2 || el.scrollHeight - el.scrollTop - el.clientHeight < 120)) el.scrollTop = el.scrollHeight; }, [whatsapp, creator, visibleCount]);
+useEffect(() => { if (!whatsapp || creator) return; const el = containerRef.current; if (el && (visibleCount <= 2 || justClickedRef.current || el.scrollHeight - el.scrollTop - el.clientHeight < 120)) el.scrollTop = el.scrollHeight; justClickedRef.current = false; }, [whatsapp, creator, visibleCount]);
 const displayed = whatsapp ? [...historyItems, ...liveItems.slice(0, creator ? liveItems.length : visibleCount)] : items;
   return (
-    <div ref={whatsapp ? containerRef : undefined} className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`}>
+    <div ref={whatsapp ? containerRef : undefined} className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`} onClick={() => { if (whatsapp && !creator && visibleCount < liveItems.length) { justClickedRef.current = true; setVisibleCount((prev) => (prev < liveItems.length ? prev + 1 : prev)); } }} onScroll={(e) => { if (!whatsapp || creator || historyItems.length === 0 || historyReturnedRef.current) return; const el = e.currentTarget; if (el.scrollTop <= 32) { if (historyTimerRef.current === null) { historyTimerRef.current = window.setTimeout(() => { historyTimerRef.current = null; historyReturnedRef.current = true; el.scrollTo({ top: el.scrollHeight, behavior: "smooth" }); }, 1000); } } else if (historyTimerRef.current !== null) { window.clearTimeout(historyTimerRef.current); historyTimerRef.current = null; } }}>
     {!whatsapp && <div className="skin-date">{items[0]?.time.slice(0, 10)}</div>}
 {displayed.map((i, idx) => {
 const sameSender = whatsapp && idx > 0 && displayed[idx - 1].outgoing === i.outgoing && displayed[idx - 1].sender === i.sender;
