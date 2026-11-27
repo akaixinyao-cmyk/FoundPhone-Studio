@@ -1,247 +1,221 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "walcott-nasri-pinned-chat",
+  "title": "置顶十一年：沃尔科特的手机",
+  "description": "沃尔科特和纳斯里曾是情侣，十多年没有联系。你捡到了沃尔科特的手机，发现他至今仍把纳斯里的聊天框置顶在最上方。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "Theo Walcott",
+    "date": "2026-11-27",
+    "time": "21:18",
+    "battery": 34,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "passcode": "",
+    "theme": "dark",
+    "wallpaper": "apple-wwdc26",
+    "notifications": true
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
     "notes",
     "calendar",
-    "mail",
     "clock",
-    "reminders",
-    "files",
     "music",
-    "maps",
     "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
     "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
     "whatsapp",
     "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "safari"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "contact-nasri",
+      "name": "Samir 📌",
+      "phone": "+33 6 44 18 20 11",
+      "avatar": "",
+      "bio": "Samir Nasri｜十一年前离开伦敦后很少再联系，但这个置顶从未取消。"
+    },
+    {
+      "id": "contact-ramsey",
+      "name": "Aaron Ramsey",
+      "phone": "+44 7700 900116",
+      "avatar": "",
+      "bio": "老朋友，周末偶尔约球或聚餐。"
+    },
+    {
+      "id": "contact-lynn",
+      "name": "Lynn（节目组编导）",
+      "phone": "+44 7700 900832",
+      "avatar": "",
+      "bio": "周末英超解说节目对接人。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
+      "id": "chat-nasri-pinned",
       "app": "whatsapp",
-      "title": "测试会话",
+      "title": "Samir 📌",
       "participants": [
         "owner",
-        "test-contact"
+        "contact-nasri"
       ],
       "messages": [
         {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "msg-nasri-2015-1",
+          "title": "2015-08-24",
+          "body": "行李已经托运了。伦敦今天又在下雨吗？",
+          "time": "2015-08-24 23:12",
+          "sender": "Samir 📌",
+          "senderId": "contact-nasri",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true",
+            "pinLabel": "置顶聊天"
+          }
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "msg-walcott-2015-2",
+          "title": "2015-08-24",
+          "body": "嗯，刚停。落地发个消息，路上小心。",
+          "time": "2015-08-24 23:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-nasri-2015-3",
+          "title": "2015-08-24",
+          "body": "好。其实有些话没来得及说，等安顿好再聊。",
+          "time": "2015-08-24 23:25",
+          "sender": "Samir 📌",
+          "senderId": "contact-nasri",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-walcott-2015-4",
+          "title": "2015-08-25",
+          "body": "好，我等你。",
+          "time": "2015-08-25 01:04",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-nasri-2015-5",
+          "title": "2015-09-02",
+          "body": "最近训练和搬家都很忙，先这样吧。照顾好自己，Theo。",
+          "time": "2015-09-02 18:40",
+          "sender": "Samir 📌",
+          "senderId": "contact-nasri",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true",
+            "lastActivity": "11年前"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chat-lynn-work",
+      "app": "whatsapp",
+      "title": "Lynn（节目组编导）",
+      "participants": [
+        "owner",
+        "contact-lynn"
+      ],
+      "messages": [
+        {
+          "id": "msg-lynn-1",
+          "title": "今天",
+          "body": "Theo，今晚复盘的资料我放台本上了，明早 10:30 演播室见！",
+          "time": "2026-11-27 18:20",
+          "sender": "Lynn（节目组编导）",
+          "senderId": "contact-lynn",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "msg-lynn-2",
+          "title": "今天",
+          "body": "你好像把手机落在咖啡店门口了？刚才给你打过一次电话没人接，看到回我一下。",
+          "time": "2026-11-27 20:56",
+          "sender": "Lynn（节目组编导）",
+          "senderId": "contact-lynn",
+          "kind": "text",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "chat-ramsey-friend",
+      "app": "whatsapp",
+      "title": "Aaron Ramsey",
+      "participants": [
+        "owner",
+        "contact-ramsey"
+      ],
+      "messages": [
+        {
+          "id": "msg-ramsey-1",
+          "title": "昨天",
+          "body": "下周老队友聚会你来吗？好几个人都问起你。",
+          "time": "2026-11-26 21:10",
+          "sender": "Aaron Ramsey",
+          "senderId": "contact-ramsey",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "msg-walcott-ramsey-2",
+          "title": "昨天",
+          "body": "看节目排期，尽量赶过去。",
+          "time": "2026-11-26 21:42",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "chat-sms-alerts",
+      "app": "messages",
+      "title": "系统与快递提醒",
+      "participants": [
+        "owner",
+        "contact-lynn"
+      ],
+      "messages": [
+        {
+          "id": "msg-sms-1",
+          "title": "演播室门禁提醒",
+          "body": "【Sky Studio】您预约的 11 月 28 日 10:30 演播室通行证已生成。",
+          "time": "2026-11-27 15:00",
+          "sender": "Lynn（节目组编导）",
+          "senderId": "contact-lynn",
+          "kind": "text",
+          "read": true
         }
       ]
     }
@@ -249,451 +223,415 @@
   "content": {
     "phone": [
       {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
+        "id": "call-log-lynn",
+        "title": "Lynn（节目组编导）",
+        "body": "未接来电 · 今天 20:54（响铃 35 秒）",
+        "time": "2026-11-27 20:54",
+        "sender": "Lynn（节目组编导）",
+        "kind": "call",
+        "meta": {
+          "phone": "+44 7700 900832",
+          "status": "missed"
+        }
+      },
       {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "call-log-ramsey",
+        "title": "Aaron Ramsey",
+        "body": "呼出电话 · 昨天 19:15（通话 6 分 12 秒）",
+        "time": "2026-11-26 19:15",
+        "sender": "Aaron Ramsey",
+        "kind": "call",
+        "meta": {
+          "phone": "+44 7700 900116",
+          "status": "outgoing"
+        }
       }
     ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-london-rain",
+        "title": "北伦敦雨夜街角",
+        "body": "2026-11-27 19:40 拍摄于伊斯灵顿一家咖啡馆外，雨滴打在玻璃窗上。",
+        "time": "2026-11-27 19:40",
+        "kind": "image",
+        "folder": "最近项目",
+        "favorite": false
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-ticket-2011",
+        "title": "2015.08.24 雨停后的最后一张合影",
+        "body": "两个穿着训练外套的背影并肩走在伦敦街头，背面手写着日期：08.24。",
+        "time": "2015-08-24 22:05",
+        "kind": "image",
+        "folder": "已隐藏",
+        "favorite": true,
+        "hidden": true,
+        "meta": {
+          "clue": "密码线索 0824"
+        }
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-work-prep",
+        "title": "周末解说提纲",
+        "body": "1. 边路反击节奏与肋部插上时机\n2. 赛前连线确认耳返\n3. 周六上午 10:30 到演播室",
+        "time": "2026-11-27 17:30",
+        "kind": "note",
+        "folder": "工作"
+      },
+      {
+        "id": "note-draft-2016",
+        "title": "未发出的草稿",
+        "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十一年过去，早就不是在等回复，只是怕取消置顶之后，连那几年一起存在过的证据都会沉到底下去。",
+        "time": "2024-03-14 02:11",
+        "kind": "note",
+        "folder": "随笔"
+      },
+      {
+        "id": "note-locked-secret",
+        "title": "加密备忘：0824",
+        "body": "其实前年在马赛转播席外远远见过他一次，两人都没上前打招呼。他的新号码我一直没存进通讯录，只有旧聊天框还占着列表第一行。如果有一天谁捡到我的手机，大概会以为我们昨天才刚刚说完话。",
+        "time": "2025-08-24 23:50",
+        "kind": "note",
+        "folder": "私人笔记",
+        "password": "0824",
+        "hidden": true
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "cal-today-prep",
+        "title": "节目组台本复盘",
+        "body": "地点：伊斯灵顿咖啡馆\n备注：带好个人手机与通行证",
+        "time": "2026-11-27 20:00",
+        "kind": "event"
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "cal-tomorrow-live",
+        "title": "周末英超演播室直播",
+        "body": "地点：Sky Studio\n时间：10:30 - 14:00",
+        "time": "2026-11-28 10:30",
+        "kind": "event"
       }
     ],
     "music": [
       {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "music-rainy-london",
+        "title": "London Rain (2015 Playlist)",
+        "body": "播放列表创建于 2015 年秋天，共 14 首曲目，最近一次播放：今晚 20:48。",
+        "time": "2026-11-27 20:48",
+        "kind": "audio"
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "ig-post-rain",
+        "title": "十一月的伦敦总是让人想起旧球衣",
+        "body": "雨夜路过酋长球场外，街灯和十年前差不多。",
+        "time": "2026-11-27 19:50",
+        "sender": "Theo Walcott",
+        "kind": "post",
+        "likes": 1842,
+        "comments": [
+          "Aaron Ramsey: 周六见，老伙计！",
+          "球迷留言：永远的14号！"
+        ]
       }
     ],
-    "tiktok": [
+    "safari": [
       {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "safari-history-1",
+        "title": "伦敦失物招领与手机挂失指引",
+        "body": "如果捡到他人手机，建议通过置顶联系人或最近通话联系失主。",
+        "time": "2026-11-27 21:10",
+        "kind": "text"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "contacted_nasri": false,
+    "read_secret_note": false
+  },
+  "events": [
+    {
+      "id": "ev-start",
+      "label": "捡到手机",
+      "type": "start",
+      "event": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "WhatsApp：列表最上方有一个置顶聊天框 [Samir 📌]，最后消息停在 2015-09-02"
+        }
+      ],
+      "next": [
+        "ev-read-pinned"
+      ]
+    },
+    {
+      "id": "ev-read-pinned",
+      "label": "查看十一年前的置顶聊天",
+      "type": "event",
+      "event": "read",
+      "target": "msg-nasri-2015-5",
+      "once": true,
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-ticket-2011",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-locked-secret",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "相册与备忘录：解锁了 2015-08-24 的旧照片与加密笔记（提示：0824）"
+        }
+      ],
+      "next": [
+        "ev-choice-contact"
+      ]
+    },
+    {
+      "id": "ev-choice-contact",
+      "label": "决定如何联系失主",
+      "type": "choice",
+      "next": [
+        "ev-act-send-nasri",
+        "ev-ending-missed"
+      ]
+    },
+    {
+      "id": "ev-act-send-nasri",
+      "label": "给置顶的 Samir 📌 发消息：你好，我捡到了 Theo 的手机",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "contacted_nasri",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "WhatsApp：消息已发送给置顶联系人 Samir 📌"
+        }
+      ],
+      "next": [
+        "ev-delay-nasri-reply"
+      ]
+    },
+    {
+      "id": "ev-delay-nasri-reply",
+      "label": "等待置顶联系人回应",
+      "type": "delay",
+      "delayMs": 1500,
+      "actions": [
+        {
+          "type": "time",
+          "key": "",
+          "value": "21:24"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "WhatsApp：Samir 📌 已读并打来了语音电话"
+        },
+        {
+          "type": "call",
+          "key": "call-nasri",
+          "value": "Samir Nasri"
+        }
+      ],
+      "next": [
+        "ev-nasri-call-answered",
+        "ev-nasri-call-declined"
+      ]
+    },
+    {
+      "id": "ev-nasri-call-answered",
+      "label": "接听纳斯里的来电",
+      "type": "event",
+      "event": "callAnswered",
+      "target": "call-nasri",
+      "next": [
+        "ev-choice-after-call"
+      ]
+    },
+    {
+      "id": "ev-nasri-call-declined",
+      "label": "挂断纳斯里的来电",
+      "type": "event",
+      "event": "callDeclined",
+      "target": "call-nasri",
+      "next": [
+        "ev-ending-quiet-message"
+      ]
+    },
+    {
+      "id": "ev-choice-after-call",
+      "label": "纳斯里在电话那头沉默三秒后轻声问：他现在还好吗？",
+      "type": "choice",
+      "next": [
+        "ev-ending-reunion",
+        "ev-ending-gentle-return"
+      ]
+    },
+    {
+      "id": "ev-ending-reunion",
+      "label": "告诉他聊天框一直被置顶在第一行，并约定明早见面交接",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "重逢前夜：你替沃尔科特说出了那个十一年没取消的置顶，纳斯里决定明天一早亲自来拿手机。"
+        }
+      ]
+    },
+    {
+      "id": "ev-ending-gentle-return",
+      "label": "只客气告知拾获地点，把十一年后的开场留给他们自己",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "克制的重逢：你把咖啡馆地址发给了纳斯里，剩下的十一年，由他们自己决定要不要开口。"
+        }
+      ]
+    },
+    {
+      "id": "ev-ending-quiet-message",
+      "label": "仅用文字回复交接地址",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "雨夜留白：你没有接通那通来电，只在置顶框里留下了交接地址，让十年前的对话停在文字里。"
+        }
+      ]
+    },
+    {
+      "id": "ev-ending-missed",
+      "label": "不打扰十年前的置顶，改为联系最近未接来电的 Lynn",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "擦肩而过：你把手机交还给了节目组编导 Lynn，那个置顶了十一年的聊天框最终没有被点亮。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "主线结局：点亮置顶框并接听来电约定重逢",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-nasri-2015-5"
+        },
+        {
+          "event": "read",
+          "target": "note-locked-secret",
+          "password": "0824"
+        },
+        {
+          "choose": "ev-act-send-nasri"
+        },
+        {
+          "advanceMs": 1500
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-nasri"
+        },
+        {
+          "choose": "ev-ending-reunion"
+        }
+      ],
+      "ending": "重逢前夜：你替沃尔科特说出了那个十一年没取消的置顶，纳斯里决定明天一早亲自来拿手机。",
+      "expectUnlocked": [
+        "photo-ticket-2011",
+        "note-locked-secret"
+      ]
+    },
+    {
+      "name": "分支结局：接听来电但保持克制",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-nasri-2015-5"
+        },
+        {
+          "choose": "ev-act-send-nasri"
+        },
+        {
+          "advanceMs": 1500
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-nasri"
+        },
+        {
+          "choose": "ev-ending-gentle-return"
+        }
+      ],
+      "ending": "克制的重逢：你把咖啡馆地址发给了纳斯里，剩下的十一年，由他们自己决定要不要开口。",
+      "expectUnlocked": [
+        "photo-ticket-2011",
+        "note-locked-secret"
+      ]
+    },
+    {
+      "name": "分支结局：挂断来电仅文字留白",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-nasri-2015-5"
+        },
+        {
+          "choose": "ev-act-send-nasri"
+        },
+        {
+          "advanceMs": 1500
+        },
+        {
+          "event": "callDeclined",
+          "target": "call-nasri"
+        }
+      ],
+      "ending": "雨夜留白：你没有接通那通来电，只在置顶框里留下了交接地址，让十年前的对话停在文字里。",
+      "expectUnlocked": [
+        "photo-ticket-2011",
+        "note-locked-secret"
+      ]
+    },
+    {
+      "name": "分支结局：不联系前任改为联系Lynn",
+      "steps": [
+        {
+          "event": "read",
+          "target": "msg-nasri-2015-5"
+        },
+        {
+          "choose": "ev-ending-missed"
+        }
+      ],
+      "ending": "擦肩而过：你把手机交还给了节目组编导 Lynn，那个置顶了十一年的聊天框最终没有被点亮。",
+      "expectUnlocked": [
+        "photo-ticket-2011",
+        "note-locked-secret"
+      ]
+    }
+  ]
 }
