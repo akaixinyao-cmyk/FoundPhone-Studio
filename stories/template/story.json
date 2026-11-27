@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -25,8 +25,14 @@
     "contacts",
     "photos",
     "notes",
+    "calendar",
+    "clock",
+    "music",
+    "weather",
     "settings",
-    "whatsapp"
+    "whatsapp",
+    "instagram",
+    "safari"
   ],
   "contacts": [
     {
@@ -35,6 +41,20 @@
       "phone": "",
       "avatar": "",
       "bio": ""
+    },
+    {
+      "id": "contact-ramsey",
+      "name": "Aaron Ramsey",
+      "phone": "+44 7700 900116",
+      "avatar": "",
+      "bio": "老朋友，周末偶尔约球或聚餐。"
+    },
+    {
+      "id": "contact-lynn",
+      "name": "Lynn（节目组编导）",
+      "phone": "+44 7700 900832",
+      "avatar": "",
+      "bio": "解说节目对接人。"
     }
   ],
   "chats": [
@@ -915,9 +935,151 @@
           "outgoing": true
         }
       ]
+    },
+    {
+      "id": "chat-ramsey",
+      "app": "whatsapp",
+      "title": "Aaron Ramsey",
+      "participants": [
+        "owner",
+        "contact-ramsey"
+      ],
+      "messages": [
+        {
+          "id": "msg-ramsey-1",
+          "title": "Aaron Ramsey",
+          "body": "下周伦敦老友聚会你来吗？",
+          "time": "2026-06-18 21:10",
+          "sender": "Aaron Ramsey",
+          "senderId": "contact-ramsey",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "msg-ramsey-2",
+          "title": "Aaron Ramsey",
+          "body": "看节目排期，尽量过去。",
+          "time": "2026-06-18 21:42",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "outgoing": true,
+          "read": true
+        }
+      ]
     }
   ],
-  "content": {},
+  "content": {
+    "phone": [
+      {
+        "id": "call-log-lynn",
+        "title": "Lynn（节目组编导）",
+        "body": "未接来电 · 2026-06-19 01:40",
+        "time": "2026-06-19 01:40",
+        "sender": "Lynn（节目组编导）",
+        "kind": "call",
+        "meta": { "phone": "+44 7700 900832", "status": "missed" }
+      },
+      {
+        "id": "call-log-ramsey",
+        "title": "Aaron Ramsey",
+        "body": "呼出电话 · 2026-06-18 19:15（通话 6 分 12 秒）",
+        "time": "2026-06-18 19:15",
+        "sender": "Aaron Ramsey",
+        "kind": "call",
+        "meta": {"phone": "+44 7700 900116", "status": "outgoing"}
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-london-rain",
+        "title": "伦敦雨夜街角",
+        "body": "2026-06-18 23:40 拍摄于伊斯灵顿街角。",
+        "time": "2026-06-18 23:40",
+        "kind": "image",
+        "folder": "最近项目",
+        "favorite": false
+      },
+      {
+        "id": "photo-match-2013",
+        "title": "2013.12.14 伊蒂哈德赛后",
+        "body": "6-3 那天赛后球员通道的旧照，背面写着日期：1214。",
+        "time": "2013-12-14 15:50",
+        "kind": "image",
+        "folder": "已隐藏",
+        "favorite": true,
+        "hidden": true,
+        "meta": { "clue": "1214" }
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-work-prep",
+        "title": "解说节目提纲",
+        "body": "1. 边路反击节奏\n2. 赛前连线确认耳返\n3. 周六上午 10:30 到演播室",
+        "time": "2026-06-18 17:30",
+        "kind": "note",
+        "folder": "工作"
+      },
+      {
+        "id": "note-draft-pinned",
+        "title": "未发出的草稿",
+        "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十多年过去，早就不指望回复，只是怕取消置顶之后，连那几年存在过的痕迹都会沉到底下去。",
+        "time": "2024-03-14 02:11",
+        "kind": "note",
+        "folder": "随笔"
+      },
+      {
+        "id": "note-locked-1214",
+        "title": "加密备忘：1214",
+        "body": "其实 2013 年 12 月 14 日那场 3-6 之后并不是真的在气那六个球。只是后来大家都太忙、太骄傲，谁也没再先低头。",
+        "time": "2014-01-10 02:30",
+        "kind": "note",
+        "folder": "私人笔记",
+        "password": "1214",
+        "hidden": true
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-live",
+        "title": "演播室录影",
+        "body": "地点：Sky Studio\n时间：10:30 - 14:00",
+        "time": "2026-06-19 10:30",
+        "kind": "event"
+      }
+    ],
+    "music": [
+      {
+        "id": "music-playlist",
+        "title": "London Rain (2013 Playlist)",
+        "body": "创建于 2013 年冬天的歌单，共 14 首。",
+        "time": "2026-06-19 01:10",
+        "kind": "audio"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "ig-post-1",
+        "title": "夏夜的伦敦还是会突然下雨",
+        "body": "路过酋长球场外。",
+        "time": "2026-06-18 22:50",
+        "sender": "Theo Walcott",
+        "kind": "post",
+        "likes": 1842,
+        "comments": ["Aaron Ramsey: 周末见！"]
+      }
+    ],
+    "safari": [
+      {
+        "id": "safari-1",
+        "title": "Samir Nasri 近期动态",
+        "body": "搜索记录 · 2026-06-18",
+        "time": "2026-06-18 23:55",
+        "kind": "text"
+      }
+    ]
+  },
   "variables": {},
   "events": [
     {
@@ -961,12 +1123,25 @@
     },
     {
       "id": "ev-free-explore",
-      "label": "第一段对话结束，提示可自由使用手机",
+      "label": "第一段对话结束，解锁隐藏内容并提示可自由使用手机",
       "type": "event",
       "event": "read",
       "target": "msg-sami-43",
       "once": true,
-      "actions": [{ "type": "notification", "key": "", "value": "现可自由使用手机" }] }, { "id": "ev-finish-chapter1", "label": "章节归档检查点", "type": "event", "event": "finish", "target": "chapter1", "once": true, "next": ["ev-ending-chapter1"]
+      "actions": [
+        { "type": "unlock", "key": "photo-match-2013", "value": true },
+        { "type": "unlock", "key": "note-locked-1214", "value": true },
+        { "type": "notification", "key": "", "value": "现可自由使用手机" }
+      ]
+    },
+    {
+      "id": "ev-finish-chapter1",
+      "label": "章节归档检查点",
+      "type": "event",
+      "event": "finish",
+      "target": "chapter1",
+      "once": true,
+      "next": ["ev-ending-chapter1"]
     },
     {
       "id": "ev-ending-chapter1",
@@ -983,10 +1158,12 @@
   ],
   "tests": [
     {
-      "name": "点击推进对话、解锁历史并自由探索",
+      "name": "点击推进对话、解锁历史与备忘录相册并自由探索",
       "steps": [
         { "event": "read", "target": "msg-sami-12" },
-        { "event": "read", "target": "msg-sami-43" }, { "event": "finish", "target": "chapter1" }
+        { "event": "read", "target": "msg-sami-43" },
+        { "event": "read", "target": "note-locked-1214", "password": "1214" },
+        { "event": "finish", "target": "chapter1" }
       ],
       "ending": "第一段对话已结束，现可自由探索手机。",
       "expectUnlocked": [
@@ -996,7 +1173,8 @@
         "hist-sami-13", "hist-sami-14", "hist-sami-15", "hist-sami-16",
         "hist-sami-17", "hist-sami-18", "hist-sami-19", "hist-sami-20",
         "hist-sami-21", "hist-sami-22", "hist-sami-23", "hist-sami-24",
-        "hist-sami-25", "hist-sami-26", "hist-sami-27", "hist-sami-28"
+        "hist-sami-25", "hist-sami-26", "hist-sami-27", "hist-sami-28",
+        "photo-match-2013", "note-locked-1214"
       ]
     }
   ]
