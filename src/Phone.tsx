@@ -132,9 +132,9 @@ function PhoneRuntime({
   runtime?: Runtime;
   onRuntime?: (s: Runtime) => void;
 }) {
-  const [app, setApp] = useState("");
+  const [app, setApp] = useState(work.phone.startApp ?? "");
   const [homeRequest, setHomeRequest] = useState(0);
-  const [locked, setLocked] = useState(!creator);
+  const [locked, setLocked] = useState(!creator && !work.phone.skipLock);
   const [pinOpen, setPinOpen] = useState(false);
   const [quickCamera, setQuickCamera] = useState(false);
   const [keyboard, setKeyboard] = useState(false);
@@ -443,6 +443,7 @@ function PhoneRuntime({
               >
                 <AppContent
                   app={plugin}
+                  initialThread={app === work.phone.startApp ? work.phone.startThread : undefined}
                   name={
                     work.apps.find((a) => a.id === app)?.name ?? plugin.name
                   }
@@ -867,6 +868,7 @@ function AppContent({
   onSettings,
   onUi,
   work,
+  initialThread,
 }: {
   app: AppPlugin;
   name: string;
@@ -880,9 +882,10 @@ function AppContent({
   onSettings?: () => void;
   onUi?: (key: string, value: UiValue) => void;
   work: Work;
+  initialThread?: string;
 }) {
   const [detail, setDetail] = useState<Item | null>(null);
-  const [thread, setThread] = useState("");
+  const [thread, setThread] = useState(initialThread ?? "");
   const [tab, setTab] = useState(app.tabs[0]);
   const [q, setQ] = useState("");
   const [pw, setPw] = useState("");
