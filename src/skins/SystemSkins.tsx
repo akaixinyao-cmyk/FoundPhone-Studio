@@ -169,7 +169,7 @@ export function ContactsSkin(p: Props) {
               .map((i) => (
                 <Row
                   key={i.id}
-                  item={i}
+                  item={i} leading={null}
                   onItem={p.onItem}
                 />
               ))}
@@ -183,12 +183,18 @@ export function ContactsSkin(p: Props) {
 export function PhotosSkin(p: Props) {
   const { tab, setTab, q, setQ, items } = useContent(p, "图库");
   const [album, setAlbum] = useState("");
+  const [unlockedAlbums, setUnlockedAlbums] = useState<Record<string, boolean>>({});
+  const [pwd, setPwd] = useState("");
+  const [pwdErr, setPwdErr] = useState(false);
+  const visibleItems = !p.creator ? items.filter((i) => !i.password) : items;
+  const albumItems = album ? items.filter((i) => (i.folder || "未分类") === album) : [];
+  const albumLocked = Boolean(album) && albumItems.some((i) => Boolean(i.password)) && !unlockedAlbums[album];
   const list =
     tab === "收藏"
-      ? items.filter((i) => i.favorite)
+    ? visibleItems.filter((i) => i.favorite)
       : album
-        ? items.filter((i) => (i.folder || "未分类") === album)
-        : items;
+        ? albumItems
+        : visibleItems;
   return (
     <div className="catalog-skin native-photos">
       <Header p={p} />
@@ -196,18 +202,76 @@ export function PhotosSkin(p: Props) {
         <h1>{album || tab}</h1>
         {tab === "相簿" && !album ? (
           <div className="album-grid">
-            {groupItems(items, "未分类").map((g) => (
-              <button key={g} onClick={() => setAlbum(g)}>
-                <Media
-                  item={items.find((i) => (i.folder || "未分类") === g)!}
-                />
-                <strong>{g}</strong>
-                <small>
-                  {items.filter((i) => (i.folder || "未分类") === g).length} 项
-                </small>
-              </button>
-            ))}
+       {groupItems(items, "未分类").map((g) => {
+              const gItems = items.filter((i) => (i.folder || "未分类") === g);
+              const locked = gItems.some((i) => Boolean(i.password)) && !unlockedAlbums[g];
+              return (
+                <button
+                  key={g}
+                  onClick={() => {
+                    setAlbum(g);
+                    setPwd("");
+                    setPwdErr(false);
+                  }}
+                >
+                  {locked ? (
+                    <div className="album-locked-cover">
+                      <LockKeyhole size={26} />
+                    </div>
+                  ) : (
+                    <Media item={gItems[0]} />
+                  )}
+                  <strong>{g}</strong>
+                  <small>{gItems.length} 项</small>
+                </button>
+              );
+            })}
           </div>
+        ) : (
+        ) : albumLocked ? (
+          <form
+            className="album-lock-panel"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const expected = albumItems.find((i) => i.password)?.password || "";
+              if (pwd === expected) {
+                setUnlockedAlbums((prev) => ({ ...prev, [album]: true }));
+                setPwd("");
+                setPwdErr(false);
+              } else {
+                setPwdErr(true);
+              }
+            }}
+          >
+            <div className="album-lock-icon">
+              <LockKeyhole size={28} />
+            </div>
+            <strong>此相簿已加密</strong>
+            <p>请输入密码以查看「{album}」</p>
+            <input
+              type="password"
+              placeholder="输入相簿密码"
+              value={pwd}
+              onChange={(e) => {
+                setPwd(e.target.value);
+                if (pwdErr) setPwdErr(false);
+              }}
+            />
+            {pwdErr && <span className="album-lock-error">密码错误，请重试</span>}
+            <div className="album-lock-actions">
+              <button
+                type="button"
+                onClick={() => {
+                  setAlbum("");
+                  setPwd("");
+                  setPwdErr(false);
+                }}
+              >
+                返回
+              </button>
+              <button type="submit">解锁</button>
+            </div>
+          </form>
         ) : (
           <>
             <SearchBox value={q} set={setQ} />
@@ -234,6 +298,8 @@ export function PhotosSkin(p: Props) {
         set={(t) => {
           setTab(t);
           setAlbum("");
+          setPwd("");
+          setPwdErr(false);
         }}
         icons={[<Image />, <Folder />, <Heart />]}
       />
