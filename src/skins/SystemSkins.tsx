@@ -227,7 +227,6 @@ export function PhotosSkin(p: Props) {
               );
             })}
           </div>
-        ) : (
         ) : albumLocked ? (
           <form
             className="album-lock-panel"
