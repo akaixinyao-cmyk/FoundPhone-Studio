@@ -119,7 +119,7 @@ function ChatRows({
               <strong>{name}</strong>
               <p>{preview.body}</p>
             </span>
-            <time{>preview.time.slice(-5)}</time>
+            <time>{preview.time.slice(-5)}</time>
           </button>
         );
       })}
