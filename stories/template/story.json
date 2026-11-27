@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 4,
+  "revision": 5,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -13,7 +13,7 @@
     "passcode": "",
     "theme": "light",
     "wallpaper": "apple-wwdc26",
-    "notifications": false,
+    "notifications": true,
     "skipLock": true,
     "startApp": "whatsapp",
     "startThread": "Sami"
@@ -48,6 +48,378 @@
       ],
       "messages": [
         {
+          "id": "hist-sami-1",
+          "title": "Sami",
+          "body": "see ya tomorrow",
+          "time": "2013-12-13 10:18",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-2",
+          "title": "Sami",
+          "body": "well kick Arsenal's ass",
+          "time": "2013-12-13 10:19",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-3",
+          "title": "Sami",
+          "body": "the team is on fire🔥",
+          "time": "2013-12-13 10:19",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-4",
+          "title": "Sami",
+          "body": "me too",
+          "time": "2013-12-13 10:19",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-5",
+          "title": "Sami",
+          "body": "It's not gonna be that easy.",
+          "time": "2013-12-13 10:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-6",
+          "title": "Sami",
+          "body": "We are on the top of the league☝️",
+          "time": "2013-12-13 10:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-7",
+          "title": "Sami",
+          "body": "I'll score tomorrow",
+          "time": "2013-12-13 09:04",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-8",
+          "title": "Sami",
+          "body": "Just watch",
+          "time": "2013-12-13 09:04",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-9",
+          "title": "Sami",
+          "body": "youre talking like our defense is trash like yours🤣",
+          "time": "2013-12-13 09:05",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-10",
+          "title": "Sami",
+          "body": "You're so confident",
+          "time": "2013-12-13 09:06",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-11",
+          "title": "Sami",
+          "body": "Which team is leading the table then",
+          "time": "2013-12-13 09:06",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-12",
+          "title": "Sami",
+          "body": "we're holding back",
+          "time": "2013-12-13 09:06",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-13",
+          "title": "Sami",
+          "body": "champion will be man city anyway",
+          "time": "2013-12-13 09:07",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-14",
+          "title": "Sami",
+          "body": "Really? I can't see that",
+          "time": "2013-12-13 09:07",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-15",
+          "title": "Sami",
+          "body": "you will ser tomorrow",
+          "time": "2013-12-13 09:08",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-16",
+          "title": "Sami",
+          "body": "Then, I am looking forward",
+          "time": "2013-12-13 09:08",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" },
+          "outgoing": true
+        },
+        {
+          "id": "hist-sami-17",
+          "title": "Sami",
+          "body": "six goals! how about this",
+          "time": "2013-12-15 09:10",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-18",
+          "title": "Sami",
+          "body": "jk are you mad?",
+          "time": "2013-12-16 04:20",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-19",
+          "title": "Sami",
+          "body": "why dont you reply?",
+          "time": "2013-12-20 04:20",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-20",
+          "title": "Sami",
+          "body": "Hey my apologies if I said something offend you. I didn’t mean to. I truly think Arsenal has a chance this year. It’s a good team.",
+          "time": "2013-12-21 04:29",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-21",
+          "title": "Sami",
+          "body": "reply?",
+          "time": "2014-01-07 04:30",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-22",
+          "title": "Sami",
+          "body": "Video Call",
+          "time": "2014-01-07 04:30",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "call",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-23",
+          "title": "Sami",
+          "body": "Missed Call",
+          "time": "2014-01-07 04:30",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "call",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-24",
+          "title": "Sami",
+          "body": "Voice Call",
+          "time": "2014-01-07 04:30",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "call",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-25",
+          "title": "Sami",
+          "body": "Missed Call",
+          "time": "2014-01-07 04:30",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "call",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-26",
+          "title": "Sami",
+          "body": "??v",
+          "time": "2014-01-07 04:31",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-27",
+          "title": "Sami",
+          "body": "what’s wrong with you",
+          "time": "2014-01-07 04:31",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
+          "id": "hist-sami-28",
+          "title": "Sami",
+          "body": "u re a dick",
+          "time": "2014-01-07 04:31",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "folder": "历史记录",
+          "hidden": true,
+          "read": true,
+          "meta": { "pinned": "true" }
+        },
+        {
           "id": "msg-sami-1",
           "title": "Sami",
           "body": "你好，我捡到了这个号主的电话，请问怎么把手机归还给号主？",
@@ -56,9 +428,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -70,9 +440,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-3",
@@ -83,9 +451,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-4",
@@ -96,9 +462,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-5",
@@ -109,9 +473,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -123,9 +485,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-7",
@@ -136,9 +496,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-8",
@@ -149,9 +507,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -163,9 +519,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-10",
@@ -176,9 +530,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -190,9 +542,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-12",
@@ -203,9 +553,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-13",
@@ -216,9 +564,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -230,9 +576,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -244,9 +588,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-16",
@@ -257,9 +599,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -271,9 +611,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -285,9 +623,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -299,9 +635,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-20",
@@ -312,9 +646,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-21",
@@ -325,9 +657,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -339,9 +669,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -353,9 +681,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-24",
@@ -366,9 +692,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -380,9 +704,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-26",
@@ -393,9 +715,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -407,9 +727,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -421,9 +739,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-29",
@@ -434,9 +750,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-30",
@@ -447,9 +761,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -461,9 +773,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -475,9 +785,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-33",
@@ -488,9 +796,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -502,9 +808,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-35",
@@ -515,9 +819,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -529,9 +831,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -543,9 +843,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -557,9 +855,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-39",
@@ -570,9 +866,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         },
         {
@@ -584,9 +878,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-41",
@@ -597,9 +889,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-42",
@@ -610,9 +900,7 @@
           "senderId": "contact-sami",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          }
+          "meta": { "pinned": "true" }
         },
         {
           "id": "msg-sami-43",
@@ -623,9 +911,7 @@
           "senderId": "owner",
           "kind": "text",
           "read": true,
-          "meta": {
-            "pinned": "true"
-          },
+          "meta": { "pinned": "true" },
           "outgoing": true
         }
       ]
@@ -633,6 +919,45 @@
   ],
   "content": {},
   "variables": {},
-  "events": [],
+  "events": [
+    {
+      "id": "ev-unlock-history",
+      "label": "解锁 2013-2014 历史记录",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sami-12",
+      "once": true,
+      "actions": [
+        { "type": "unlock", "key": "hist-sami-1", "value": true },
+        { "type": "unlock", "key": "hist-sami-2", "value": true },
+        { "type": "unlock", "key": "hist-sami-3", "value": true },
+        { "type": "unlock", "key": "hist-sami-4", "value": true },
+        { "type": "unlock", "key": "hist-sami-5", "value": true },
+        { "type": "unlock", "key": "hist-sami-6", "value": true },
+        { "type": "unlock", "key": "hist-sami-7", "value": true },
+        { "type": "unlock", "key": "hist-sami-8", "value": true },
+        { "type": "unlock", "key": "hist-sami-9", "value": true },
+        { "type": "unlock", "key": "hist-sami-10", "value": true },
+        { "type": "unlock", "key": "hist-sami-11", "value": true },
+        { "type": "unlock", "key": "hist-sami-12", "value": true },
+        { "type": "unlock", "key": "hist-sami-13", "value": true },
+        { "type": "unlock", "key": "hist-sami-14", "value": true },
+        { "type": "unlock", "key": "hist-sami-15", "value": true },
+        { "type": "unlock", "key": "hist-sami-16", "value": true },
+        { "type": "unlock", "key": "hist-sami-17", "value": true },
+        { "type": "unlock", "key": "hist-sami-18", "value": true },
+        { "type": "unlock", "key": "hist-sami-19", "value": true },
+        { "type": "unlock", "key": "hist-sami-20", "value": true },
+        { "type": "unlock", "key": "hist-sami-21", "value": true },
+        { "type": "unlock", "key": "hist-sami-22", "value": true },
+        { "type": "unlock", "key": "hist-sami-23", "value": true },
+        { "type": "unlock", "key": "hist-sami-24", "value": true },
+        { "type": "unlock", "key": "hist-sami-25", "value": true },
+        { "type": "unlock", "key": "hist-sami-26", "value": true },
+        { "type": "unlock", "key": "hist-sami-27", "value": true },
+        { "type": "unlock", "key": "hist-sami-28", "value": true },
+        { "type": "notification", "key": "", "value": "现可查看历史记录" }
+      ]
+    }
+  ],
   "tests": []
-}
