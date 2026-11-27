@@ -235,6 +235,8 @@ export function PhotosSkin(p: Props) {
               const expected = albumItems.find((i) => i.password)?.password || "";
               if (pwd === expected) {
                 setUnlockedAlbums((prev) => ({ ...prev, [album]: true }));
+                const firstPhoto = albumItems[0];
+                if (firstPhoto) p.onRead(firstPhoto.id);
                 setPwd("");
                 setPwdErr(false);
               } else {
