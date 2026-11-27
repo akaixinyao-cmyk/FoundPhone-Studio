@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 16,
+  "revision": 17,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -3382,8 +3382,8 @@
       "id": "ev-ending-part2",
       "label": "后半部分对话结束",
       "type": "event",
-      "event": "read",
-      "target": "msg-sami-p2-53",
+      "event": "finish",
+      "target": "chapter2",
       "once": true,
       "next": [
         "ev-ending-final"
@@ -3468,6 +3468,10 @@
         {
           "event": "read",
           "target": "msg-sami-p2-53"
+        },
+        {
+          "event": "finish",
+          "target": "chapter2"
         }
       ],
       "ending": "完结：我想让你属于我，只属于…我的…",
