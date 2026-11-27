@@ -1,17 +1,17 @@
 {
   "scriptVersion": 1,
   "id": "walcott-nasri-pinned-chat",
-  "title": "置顶十一年：沃尔科特的手机",
-  "description": "沃尔科特和纳斯里曾是情侣，十多年没有联系。你捡到了沃尔科特的手机，发现他至今仍把纳斯里的聊天框置顶在最上方。",
-  "revision": 1,
+  "title": "捡手机：Sami",
+  "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
+  "revision": 2,
   "phone": {
     "owner": "Theo Walcott",
-    "date": "2026-11-27",
-    "time": "21:18",
-    "battery": 34,
+    "date": "2026-06-19",
+    "time": "03:18",
+    "battery": 68,
     "network": "5G",
     "passcode": "",
-    "theme": "dark",
+    "theme": "light",
     "wallpaper": "apple-wwdc26",
     "notifications": true
   },
@@ -22,83 +22,49 @@
     "contacts",
     "photos",
     "notes",
-    "calendar",
-    "clock",
-    "music",
-    "weather",
     "settings",
-    "whatsapp",
-    "instagram",
-    "safari"
+    "kakao"
   ],
   "contacts": [
     {
-      "id": "contact-nasri",
-      "name": "Samir 📌",
-      "phone": "+33 6 44 18 20 11",
+      "id": "contact-sami",
+      "name": "Sami",
+      "phone": "",
       "avatar": "",
-      "bio": "Samir Nasri｜十一年前离开伦敦后很少再联系，但这个置顶从未取消。"
-    },
-    {
-      "id": "contact-ramsey",
-      "name": "Aaron Ramsey",
-      "phone": "+44 7700 900116",
-      "avatar": "",
-      "bio": "老朋友，周末偶尔约球或聚餐。"
-    },
-    {
-      "id": "contact-lynn",
-      "name": "Lynn（节目组编导）",
-      "phone": "+44 7700 900832",
-      "avatar": "",
-      "bio": "周末英超解说节目对接人。"
+      "bio": ""
     }
   ],
   "chats": [
     {
-      "id": "chat-nasri-pinned",
-      "app": "whatsapp",
-      "title": "Samir 📌",
+      "id": "chat-sami-pinned",
+      "app": "kakao",
+      "title": "Sami",
       "participants": [
         "owner",
-        "contact-nasri"
+        "contact-sami"
       ],
       "messages": [
         {
-          "id": "msg-nasri-2015-1",
-          "title": "2015-08-24",
-          "body": "行李已经托运了。伦敦今天又在下雨吗？",
-          "time": "2015-08-24 23:12",
-          "sender": "Samir 📌",
-          "senderId": "contact-nasri",
-          "kind": "text",
-          "read": true,
-          "meta": {
-            "pinned": "true",
-            "pinLabel": "置顶聊天"
-          }
-        },
-        {
-          "id": "msg-walcott-2015-2",
-          "title": "2015-08-24",
-          "body": "嗯，刚停。落地发个消息，路上小心。",
-          "time": "2015-08-24 23:19",
+          "id": "msg-sami-1",
+          "title": "2026-06-19",
+          "body": "你好，我捡到了这个号主的电话，请问怎么把手机归还给号主？",
+          "time": "2026-06-19 02:52",
           "sender": "Theo Walcott",
           "senderId": "owner",
           "kind": "text",
-          "outgoing": true,
           "read": true,
           "meta": {
             "pinned": "true"
-          }
+          },
+          "outgoing": true
         },
         {
-          "id": "msg-nasri-2015-3",
-          "title": "2015-08-24",
-          "body": "好。其实有些话没来得及说，等安顿好再聊。",
-          "time": "2015-08-24 23:25",
-          "sender": "Samir 📌",
-          "senderId": "contact-nasri",
+          "id": "msg-sami-2",
+          "title": "2026-06-19",
+          "body": "？？？你有病吧",
+          "time": "2026-06-19 02:52",
+          "sender": "Sami",
+          "senderId": "contact-sami",
           "kind": "text",
           "read": true,
           "meta": {
@@ -106,532 +72,616 @@
           }
         },
         {
-          "id": "msg-walcott-2015-4",
-          "title": "2015-08-25",
-          "body": "好，我等你。",
-          "time": "2015-08-25 01:04",
-          "sender": "Theo Walcott",
-          "senderId": "owner",
+          "id": "msg-sami-3",
+          "title": "2026-06-19",
+          "body": "这么多年不联系，然后用装作手机丢了的方法联系我",
+          "time": "2026-06-19 02:53",
+          "sender": "Sami",
+          "senderId": "contact-sami",
           "kind": "text",
-          "outgoing": true,
           "read": true,
           "meta": {
             "pinned": "true"
           }
         },
         {
-          "id": "msg-nasri-2015-5",
-          "title": "2015-09-02",
-          "body": "最近训练和搬家都很忙，先这样吧。照顾好自己，Theo。",
-          "time": "2015-09-02 18:40",
-          "sender": "Samir 📌",
-          "senderId": "contact-nasri",
+          "id": "msg-sami-4",
+          "title": "2026-06-19",
+          "body": "有大病",
+          "time": "2026-06-19 02:53",
+          "sender": "Sami",
+          "senderId": "contact-sami",
           "kind": "text",
           "read": true,
           "meta": {
-            "pinned": "true",
-            "lastActivity": "11年前"
+            "pinned": "true"
           }
-        }
-      ]
-    },
-    {
-      "id": "chat-lynn-work",
-      "app": "whatsapp",
-      "title": "Lynn（节目组编导）",
-      "participants": [
-        "owner",
-        "contact-lynn"
-      ],
-      "messages": [
-        {
-          "id": "msg-lynn-1",
-          "title": "今天",
-          "body": "Theo，今晚复盘的资料我放台本上了，明早 10:30 演播室见！",
-          "time": "2026-11-27 18:20",
-          "sender": "Lynn（节目组编导）",
-          "senderId": "contact-lynn",
-          "kind": "text",
-          "read": true
         },
         {
-          "id": "msg-lynn-2",
-          "title": "今天",
-          "body": "你好像把手机落在咖啡店门口了？刚才给你打过一次电话没人接，看到回我一下。",
-          "time": "2026-11-27 20:56",
-          "sender": "Lynn（节目组编导）",
-          "senderId": "contact-lynn",
-          "kind": "text",
-          "read": false
-        }
-      ]
-    },
-    {
-      "id": "chat-ramsey-friend",
-      "app": "whatsapp",
-      "title": "Aaron Ramsey",
-      "participants": [
-        "owner",
-        "contact-ramsey"
-      ],
-      "messages": [
-        {
-          "id": "msg-ramsey-1",
-          "title": "昨天",
-          "body": "下周老队友聚会你来吗？好几个人都问起你。",
-          "time": "2026-11-26 21:10",
-          "sender": "Aaron Ramsey",
-          "senderId": "contact-ramsey",
-          "kind": "text",
-          "read": true
-        },
-        {
-          "id": "msg-walcott-ramsey-2",
-          "title": "昨天",
-          "body": "看节目排期，尽量赶过去。",
-          "time": "2026-11-26 21:42",
+          "id": "msg-sami-5",
+          "title": "2026-06-19",
+          "body": "不是，你可能误会了，我是真的捡到手机的人。",
+          "time": "2026-06-19 02:54",
           "sender": "Theo Walcott",
           "senderId": "owner",
           "kind": "text",
-          "outgoing": true,
-          "read": true
-        }
-      ]
-    },
-    {
-      "id": "chat-sms-alerts",
-      "app": "messages",
-      "title": "系统与快递提醒",
-      "participants": [
-        "owner",
-        "contact-lynn"
-      ],
-      "messages": [
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
         {
-          "id": "msg-sms-1",
-          "title": "演播室门禁提醒",
-          "body": "【Sky Studio】您预约的 11 月 28 日 10:30 演播室通行证已生成。",
-          "time": "2026-11-27 15:00",
-          "sender": "Lynn（节目组编导）",
-          "senderId": "contact-lynn",
+          "id": "msg-sami-6",
+          "title": "2026-06-19",
+          "body": "别装了",
+          "time": "2026-06-19 02:54",
+          "sender": "Sami",
+          "senderId": "contact-sami",
           "kind": "text",
-          "read": true
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-7",
+          "title": "2026-06-19",
+          "body": "那么多聊天记录里还能翻到我也是挺不容易的",
+          "time": "2026-06-19 02:55",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-8",
+          "title": "2026-06-19",
+          "body": "我没有翻，你是置顶的聊天，所以我才给你发消息，想着你应该是号主很亲近的人，可以很快联系到他",
+          "time": "2026-06-19 02:56",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-9",
+          "title": "2026-06-19",
+          "body": "不是，看了我的名字你不知道我是谁？不知道搜一下的吗？",
+          "time": "2026-06-19 02:57",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-10",
+          "title": "2026-06-19",
+          "body": "备注只是 Sami 实在是猜不到😂",
+          "time": "2026-06-19 02:58",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-11",
+          "title": "2026-06-19",
+          "body": "真的吗？",
+          "time": "2026-06-19 03:00",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-12",
+          "title": "2026-06-19",
+          "body": "历史消息你也看不到吗？",
+          "time": "2026-06-19 03:00",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-13",
+          "title": "2026-06-19",
+          "body": "额，看到了，就是你俩正常聊天，然后最后几条是你发的",
+          "time": "2026-06-19 03:02",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-14",
+          "title": "2026-06-19",
+          "body": "我对别人的隐私没有兴趣",
+          "time": "2026-06-19 03:34",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-15",
+          "title": "2026-06-19",
+          "body": "看看日期吧",
+          "time": "2026-06-19 03:34",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-16",
+          "title": "2026-06-19",
+          "body": "2013年？",
+          "time": "2026-06-19 03:35",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-17",
+          "title": "2026-06-19",
+          "body": "wtf",
+          "time": "2026-06-19 03:35",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-18",
+          "title": "2026-06-19",
+          "body": "为什么你的聊天还是置顶的？",
+          "time": "2026-06-19 03:36",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-19",
+          "title": "2026-06-19",
+          "body": "我tm怎么知道",
+          "time": "2026-06-19 03:36",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-20",
+          "title": "2026-06-19",
+          "body": "你去问号主",
+          "time": "2026-06-19 03:36",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-21",
+          "title": "2026-06-19",
+          "body": "我有点好奇了",
+          "time": "2026-06-19 03:37",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-22",
+          "title": "2026-06-19",
+          "body": "你俩什么关系？",
+          "time": "2026-06-19 03:38",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-23",
+          "title": "2026-06-19",
+          "body": "关你什么事？",
+          "time": "2026-06-19 03:38",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-24",
+          "title": "2026-06-19",
+          "body": "好歹我也是捡到这个手机的人。。。",
+          "time": "2026-06-19 03:38",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-25",
+          "title": "2026-06-19",
+          "body": "所以？",
+          "time": "2026-06-19 03:39",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-26",
+          "title": "2026-06-19",
+          "body": "没有功劳也有苦劳吧",
+          "time": "2026-06-19 03:39",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-27",
+          "title": "2026-06-19",
+          "body": "给我八卦一下呗",
+          "time": "2026-06-19 03:40",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-28",
+          "title": "2026-06-19",
+          "body": "你是不是有病",
+          "time": "2026-06-19 03:40",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-29",
+          "title": "2026-06-19",
+          "body": "刚刚还说对别人隐私不感兴趣",
+          "time": "2026-06-19 03:40",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-30",
+          "title": "2026-06-19",
+          "body": "可是十多年没联系，聊天记录一直是置顶的真的很奇怪啊",
+          "time": "2026-06-19 03:41",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-31",
+          "title": "2026-06-19",
+          "body": "他不会一直还没放下吧？",
+          "time": "2026-06-19 03:42",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-32",
+          "title": "2026-06-19",
+          "body": "我怎么知道？",
+          "time": "2026-06-19 03:10",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-33",
+          "title": "2026-06-19",
+          "body": "那你呢？",
+          "time": "2026-06-19 03:12",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-34",
+          "title": "2026-06-19",
+          "body": "你不会是他找来恶作剧我的人吧？",
+          "time": "2026-06-19 03:15",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-35",
+          "title": "2026-06-19",
+          "body": "真不是",
+          "time": "2026-06-19 03:15",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-36",
+          "title": "2026-06-19",
+          "body": "所以你没放下？",
+          "time": "2026-06-19 03:16",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-37",
+          "title": "2026-06-19",
+          "body": "不然你的态度也太过激了吧",
+          "time": "2026-06-19 03:16",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-38",
+          "title": "2026-06-19",
+          "body": "我说话就这样的",
+          "time": "2026-06-19 03:16",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-39",
+          "title": "2026-06-19",
+          "body": "那你告诉我你放没放下吧",
+          "time": "2026-06-19 03:17",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-40",
+          "title": "2026-06-19",
+          "body": "不管你的事",
+          "time": "2026-06-19 03:17",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-41",
+          "title": "2026-06-19",
+          "body": "你去找其他的联系人吧",
+          "time": "2026-06-19 03:18",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-42",
+          "title": "2026-06-19",
+          "body": "再问拉黑",
+          "time": "2026-06-19 03:18",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-43",
+          "title": "2026-06-19",
+          "body": "好吧。。。",
+          "time": "2026-06-19 03:18",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
         }
       ]
     }
   ],
-  "content": {
-    "phone": [
-      {
-        "id": "call-log-lynn",
-        "title": "Lynn（节目组编导）",
-        "body": "未接来电 · 今天 20:54（响铃 35 秒）",
-        "time": "2026-11-27 20:54",
-        "sender": "Lynn（节目组编导）",
-        "kind": "call",
-        "meta": {
-          "phone": "+44 7700 900832",
-          "status": "missed"
-        }
-      },
-      {
-        "id": "call-log-ramsey",
-        "title": "Aaron Ramsey",
-        "body": "呼出电话 · 昨天 19:15（通话 6 分 12 秒）",
-        "time": "2026-11-26 19:15",
-        "sender": "Aaron Ramsey",
-        "kind": "call",
-        "meta": {
-          "phone": "+44 7700 900116",
-          "status": "outgoing"
-        }
-      }
-    ],
-    "photos": [
-      {
-        "id": "photo-london-rain",
-        "title": "北伦敦雨夜街角",
-        "body": "2026-11-27 19:40 拍摄于伊斯灵顿一家咖啡馆外，雨滴打在玻璃窗上。",
-        "time": "2026-11-27 19:40",
-        "kind": "image",
-        "folder": "最近项目",
-        "favorite": false
-      },
-      {
-        "id": "photo-ticket-2011",
-        "title": "2015.08.24 雨停后的最后一张合影",
-        "body": "两个穿着训练外套的背影并肩走在伦敦街头，背面手写着日期：08.24。",
-        "time": "2015-08-24 22:05",
-        "kind": "image",
-        "folder": "已隐藏",
-        "favorite": true,
-        "hidden": true,
-        "meta": {
-          "clue": "密码线索 0824"
-        }
-      }
-    ],
-    "notes": [
-      {
-        "id": "note-work-prep",
-        "title": "周末解说提纲",
-        "body": "1. 边路反击节奏与肋部插上时机\n2. 赛前连线确认耳返\n3. 周六上午 10:30 到演播室",
-        "time": "2026-11-27 17:30",
-        "kind": "note",
-        "folder": "工作"
-      },
-      {
-        "id": "note-draft-2016",
-        "title": "未发出的草稿",
-        "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十一年过去，早就不是在等回复，只是怕取消置顶之后，连那几年一起存在过的证据都会沉到底下去。",
-        "time": "2024-03-14 02:11",
-        "kind": "note",
-        "folder": "随笔"
-      },
-      {
-        "id": "note-locked-secret",
-        "title": "加密备忘：0824",
-        "body": "其实前年在马赛转播席外远远见过他一次，两人都没上前打招呼。他的新号码我一直没存进通讯录，只有旧聊天框还占着列表第一行。如果有一天谁捡到我的手机，大概会以为我们昨天才刚刚说完话。",
-        "time": "2025-08-24 23:50",
-        "kind": "note",
-        "folder": "私人笔记",
-        "password": "0824",
-        "hidden": true
-      }
-    ],
-    "calendar": [
-      {
-        "id": "cal-today-prep",
-        "title": "节目组台本复盘",
-        "body": "地点：伊斯灵顿咖啡馆\n备注：带好个人手机与通行证",
-        "time": "2026-11-27 20:00",
-        "kind": "event"
-      },
-      {
-        "id": "cal-tomorrow-live",
-        "title": "周末英超演播室直播",
-        "body": "地点：Sky Studio\n时间：10:30 - 14:00",
-        "time": "2026-11-28 10:30",
-        "kind": "event"
-      }
-    ],
-    "music": [
-      {
-        "id": "music-rainy-london",
-        "title": "London Rain (2015 Playlist)",
-        "body": "播放列表创建于 2015 年秋天，共 14 首曲目，最近一次播放：今晚 20:48。",
-        "time": "2026-11-27 20:48",
-        "kind": "audio"
-      }
-    ],
-    "instagram": [
-      {
-        "id": "ig-post-rain",
-        "title": "十一月的伦敦总是让人想起旧球衣",
-        "body": "雨夜路过酋长球场外，街灯和十年前差不多。",
-        "time": "2026-11-27 19:50",
-        "sender": "Theo Walcott",
-        "kind": "post",
-        "likes": 1842,
-        "comments": [
-          "Aaron Ramsey: 周六见，老伙计！",
-          "球迷留言：永远的14号！"
-        ]
-      }
-    ],
-    "safari": [
-      {
-        "id": "safari-history-1",
-        "title": "伦敦失物招领与手机挂失指引",
-        "body": "如果捡到他人手机，建议通过置顶联系人或最近通话联系失主。",
-        "time": "2026-11-27 21:10",
-        "kind": "text"
-      }
-    ]
-  },
-  "variables": {
-    "contacted_nasri": false,
-    "read_secret_note": false
-  },
+  "content": {},
+  "variables": {},
   "events": [
     {
       "id": "ev-start",
-      "label": "捡到手机",
+      "label": "打开手机",
       "type": "start",
       "event": "start",
       "actions": [
         {
           "type": "notification",
           "key": "",
-          "value": "WhatsApp：列表最上方有一个置顶聊天框 [Samir 📌]，最后消息停在 2015-09-02"
+          "value": "KakaoTalk：置顶联系人 Sami"
         }
       ],
       "next": [
-        "ev-read-pinned"
+        "ev-read-chapter1"
       ]
     },
     {
-      "id": "ev-read-pinned",
-      "label": "查看十一年前的置顶聊天",
+      "id": "ev-read-chapter1",
+      "label": "读完第一段对话",
       "type": "event",
       "event": "read",
-      "target": "msg-nasri-2015-5",
+      "target": "msg-sami-43",
       "once": true,
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "photo-ticket-2011",
-          "value": true
-        },
-        {
-          "type": "unlock",
-          "key": "note-locked-secret",
-          "value": true
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "相册与备忘录：解锁了 2015-08-24 的旧照片与加密笔记（提示：0824）"
-        }
-      ],
       "next": [
-        "ev-choice-contact"
+        "ev-ending-chapter1"
       ]
     },
     {
-      "id": "ev-choice-contact",
-      "label": "决定如何联系失主",
-      "type": "choice",
-      "next": [
-        "ev-act-send-nasri",
-        "ev-ending-missed"
-      ]
-    },
-    {
-      "id": "ev-act-send-nasri",
-      "label": "给置顶的 Samir 📌 发消息：你好，我捡到了 Theo 的手机",
-      "type": "action",
-      "actions": [
-        {
-          "type": "variable",
-          "key": "contacted_nasri",
-          "value": true
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "WhatsApp：消息已发送给置顶联系人 Samir 📌"
-        }
-      ],
-      "next": [
-        "ev-delay-nasri-reply"
-      ]
-    },
-    {
-      "id": "ev-delay-nasri-reply",
-      "label": "等待置顶联系人回应",
-      "type": "delay",
-      "delayMs": 1500,
-      "actions": [
-        {
-          "type": "time",
-          "key": "",
-          "value": "21:24"
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "WhatsApp：Samir 📌 已读并打来了语音电话"
-        },
-        {
-          "type": "call",
-          "key": "call-nasri",
-          "value": "Samir Nasri"
-        }
-      ],
-      "next": [
-        "ev-nasri-call-answered",
-        "ev-nasri-call-declined"
-      ]
-    },
-    {
-      "id": "ev-nasri-call-answered",
-      "label": "接听纳斯里的来电",
-      "type": "event",
-      "event": "callAnswered",
-      "target": "call-nasri",
-      "next": [
-        "ev-choice-after-call"
-      ]
-    },
-    {
-      "id": "ev-nasri-call-declined",
-      "label": "挂断纳斯里的来电",
-      "type": "event",
-      "event": "callDeclined",
-      "target": "call-nasri",
-      "next": [
-        "ev-ending-quiet-message"
-      ]
-    },
-    {
-      "id": "ev-choice-after-call",
-      "label": "纳斯里在电话那头沉默三秒后轻声问：他现在还好吗？",
-      "type": "choice",
-      "next": [
-        "ev-ending-reunion",
-        "ev-ending-gentle-return"
-      ]
-    },
-    {
-      "id": "ev-ending-reunion",
-      "label": "告诉他聊天框一直被置顶在第一行，并约定明早见面交接",
+      "id": "ev-ending-chapter1",
+      "label": "第一段对话结束",
       "type": "ending",
       "actions": [
         {
           "type": "ending",
           "key": "",
-          "value": "重逢前夜：你替沃尔科特说出了那个十一年没取消的置顶，纳斯里决定明天一早亲自来拿手机。"
-        }
-      ]
-    },
-    {
-      "id": "ev-ending-gentle-return",
-      "label": "只客气告知拾获地点，把十一年后的开场留给他们自己",
-      "type": "ending",
-      "actions": [
-        {
-          "type": "ending",
-          "key": "",
-          "value": "克制的重逢：你把咖啡馆地址发给了纳斯里，剩下的十一年，由他们自己决定要不要开口。"
-        }
-      ]
-    },
-    {
-      "id": "ev-ending-quiet-message",
-      "label": "仅用文字回复交接地址",
-      "type": "ending",
-      "actions": [
-        {
-          "type": "ending",
-          "key": "",
-          "value": "雨夜留白：你没有接通那通来电，只在置顶框里留下了交接地址，让十年前的对话停在文字里。"
-        }
-      ]
-    },
-    {
-      "id": "ev-ending-missed",
-      "label": "不打扰十年前的置顶，改为联系最近未接来电的 Lynn",
-      "type": "ending",
-      "actions": [
-        {
-          "type": "ending",
-          "key": "",
-          "value": "擦肩而过：你把手机交还给了节目组编导 Lynn，那个置顶了十一年的聊天框最终没有被点亮。"
+          "value": "第一段对话已结束：Sami 让你去找其他的联系人。"
         }
       ]
     }
   ],
   "tests": [
     {
-      "name": "主线结局：点亮置顶框并接听来电约定重逢",
+      "name": "线性剧情：读完第一段对话",
       "steps": [
         {
           "event": "read",
-          "target": "msg-nasri-2015-5"
-        },
-        {
-          "event": "read",
-          "target": "note-locked-secret",
-          "password": "0824"
-        },
-        {
-          "choose": "ev-act-send-nasri"
-        },
-        {
-          "advanceMs": 1500
-        },
-        {
-          "event": "callAnswered",
-          "target": "call-nasri"
-        },
-        {
-          "choose": "ev-ending-reunion"
+          "target": "msg-sami-43"
         }
       ],
-      "ending": "重逢前夜：你替沃尔科特说出了那个十一年没取消的置顶，纳斯里决定明天一早亲自来拿手机。",
-      "expectUnlocked": [
-        "photo-ticket-2011",
-        "note-locked-secret"
-      ]
-    },
-    {
-      "name": "分支结局：接听来电但保持克制",
-      "steps": [
-        {
-          "event": "read",
-          "target": "msg-nasri-2015-5"
-        },
-        {
-          "choose": "ev-act-send-nasri"
-        },
-        {
-          "advanceMs": 1500
-        },
-        {
-          "event": "callAnswered",
-          "target": "call-nasri"
-        },
-        {
-          "choose": "ev-ending-gentle-return"
-        }
-      ],
-      "ending": "克制的重逢：你把咖啡馆地址发给了纳斯里，剩下的十一年，由他们自己决定要不要开口。",
-      "expectUnlocked": [
-        "photo-ticket-2011",
-        "note-locked-secret"
-      ]
-    },
-    {
-      "name": "分支结局：挂断来电仅文字留白",
-      "steps": [
-        {
-          "event": "read",
-          "target": "msg-nasri-2015-5"
-        },
-        {
-          "choose": "ev-act-send-nasri"
-        },
-        {
-          "advanceMs": 1500
-        },
-        {
-          "event": "callDeclined",
-          "target": "call-nasri"
-        }
-      ],
-      "ending": "雨夜留白：你没有接通那通来电，只在置顶框里留下了交接地址，让十年前的对话停在文字里。",
-      "expectUnlocked": [
-        "photo-ticket-2011",
-        "note-locked-secret"
-      ]
-    },
-    {
-      "name": "分支结局：不联系前任改为联系Lynn",
-      "steps": [
-        {
-          "event": "read",
-          "target": "msg-nasri-2015-5"
-        },
-        {
-          "choose": "ev-ending-missed"
-        }
-      ],
-      "ending": "擦肩而过：你把手机交还给了节目组编导 Lynn，那个置顶了十一年的聊天框最终没有被点亮。",
-      "expectUnlocked": [
-        "photo-ticket-2011",
-        "note-locked-secret"
-      ]
+      "ending": "第一段对话已结束：Sami 让你去找其他的联系人。",
+      "expectUnlocked": []
     }
   ]
 }
