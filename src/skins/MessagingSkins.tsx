@@ -12,7 +12,7 @@ import {
   Smile,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { Item } from "../schema";
 import {
   Add,
@@ -36,10 +36,24 @@ function Bubbles({
   items: Item[];
   className?: string;
 }) {
+const tapToAdvance = !p.creator && p.appId === "messages" && p.thread === "Don Walcott" && items.length > 0;
+  const [visibleCount, setVisibleCount] = useState(1);
+  const readRef = useRef<Set<string>>(new Set());
+const shownItems = tapToAdvance ? items.slice(0, visibleCount) : items;
+useEffect(() => {
+if (!tapToAdvance) return;
+for (const item of shownItems) {
+if (!readRef.current.has(item.id)) {
+readRef.current.add(item.id);
+p.onRead(item.id);
+}
+}
+}, [tapToAdvance, shownItems, p]);
+  
   return (
-    <div className={`catalog-bubbles ${className}`}>
+    <div className={`catalog-bubbles ${className}`}> onClick={tapToAdvance ? () => setVisibleCount((c) => Math.min(c + 1, items.length)) : undefined}>
       <time className="bubble-date">{items[0]?.time.slice(0, 10)}</time>
-      {items.map((i) => (
+      {shownItems.map((i) => (
         <div
           className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}
           key={i.id}
