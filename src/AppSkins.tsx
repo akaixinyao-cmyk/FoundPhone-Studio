@@ -29,7 +29,7 @@ import {
   Music,
   Image as ImageIcon,
   Layers,
-  ShoppingBag,
+  ShoppingBag, Pin,
 } from "lucide-react";
 import { safeMedia, type Item, type UiValue } from "./schema";
 export type SkinProps = {
@@ -594,7 +594,7 @@ export function WhatsAppSkin(p: SkinProps) {
                     p.items.some((i) => i.title === t && i.folder === "群组"),
                 )
                 .map((t) => {
-                  const last = p.items.filter((i) => i.title === t).at(-1)!;
+                  const last = p.items.filter((i) => i.title === t).at(-1)!; const isPinned = p.items.some((i) => i.title === t && i.meta?.pinned === "true");
                   return (
                     <button
                       className="wa-chat-row"
@@ -612,7 +612,7 @@ export function WhatsAppSkin(p: SkinProps) {
                           {last.body}
                         </p>
                       </div>
-                      <time>{last.time.slice(-5)}</time>
+                      <span className="wa-chat-meta"><time>{last.time.slice(-5)}</time>{isPinned && <Pin size={12} className="wa-pin-icon" />}</span>
                     </button>
                   );
                 })}
