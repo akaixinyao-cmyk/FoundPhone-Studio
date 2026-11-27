@@ -206,7 +206,7 @@ function PhoneRuntime({
         setTimeout(() => {
           setRebooting(false);
           setLocked(false);
-          setApp("whatsapp");
+          setApp("");
           setRebootKey((k) => k + 1);
           }, 2200);
       }
