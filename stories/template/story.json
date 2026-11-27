@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -203,8 +203,8 @@
     "notes": [
       {"id": "note-work-prep", "title": "周末解说提纲", "body": "1. 边路反击节奏与肋部插上时机\n2. 赛前连线 Kelly 和 Jamie 确认耳返\n3. 周六上午 10:30 到 Sky Studio", "time": "2026-06-18 17:30", "kind": "note", "folder": "工作"},
       {"id": "note-reunion-list", "title": "下周老友聚会备忘", "body": "Aaron、Jack、Gibbsy、Ollie、Olivier。\n记得带回以前那本签名册。", "time": "2026-06-18 20:45", "kind": "note", "folder": "生活"},
-      {"id": "note-draft-pinned", "title": "未发出的草稿", "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十多年过去，早就不指望回复，只是怕取消置顶之后，连那几年存在过的痕迹都会沉到底下去。", "time": "2024-03-14 02:11", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true},
-      {"id": "note-unforgettable", "title": "unforgettable", "body": "关于 Samir：\n1. 很爱吃黑巧克力和夹心松露，每次赛前包里都会塞两块，被队医没收还会悄悄再藏。\n2. 平时看起来嘴硬又爱怼人，其实笑起来两边会有很浅的酒窝。\n3. 赛前系鞋带一定要先系右脚，热身时喜欢把球衣下摆塞进去一半。\n4. 训练完总爱听法语说唱，还老是抢走我包里最后一瓶冰水。\n5. 2013 年 12 月 14 日那场 3-6 之后并不是真的在气那六个球。只是后来大家都太忙、太骄傲，谁也没再先低头。\n6. 0814 是我一直没改过的密码，也是我唯一没有删掉的置顶。", "time": "2014-01-10 02:30", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true}
+      {"id": "note-draft-pinned", "title": "未发出的草稿", "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。你也许不会再回复我了，只是怕取消置顶之后，连那几年存在过的痕迹都会沉到底下去。\n\n我很想你，看到你腿受伤了，还做了手术，你还好吗？\n\n塞维利亚的太阳很暖，应该想起马赛了，很喜欢吧，不像北伦敦这么阴冷。\n\n好想你。\n\n你居然加入了西汉姆，我们还能球场上再见吗？不过，再见，不如不见吧。\n\n不许你退役。\n\n也许，再也见不到了吧，这就是我们的结局吗？太惨了吧。足球之神一点都不愿意眷顾我们。", "time": "2024-03-14 02:11", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true},
+      {"id": "note-unforgettable", "title": "unforgettable", "body": "1. 很爱吃巧克力，一边和我抱怨说会胖，要减肥，不过还是吃了。\n2. 笑起来两边会有很浅的酒窝。\n3. 赛前系鞋带一定要先系右脚，热身时喜欢把球衣下摆塞进去一半。\n4. 冬天的时候喜欢穿围脖，但我们都知道在挡什么。\n5. 2013 年 12 月 14 日那场 3-6 之后并不是真的在气那六个球。只是后来大家都太骄傲，谁也没再先低头。\n6. 0814 是我一直没改过的密码，也是我唯一没有删掉的置顶。", "time": "2014-01-10 02:30", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true}
     ],
     "music": [
       {"id": "music-1", "title": "Coldplay - Fix You", "body": "Theo 最常单曲循环的歌之一 · 2011 年起就在歌单里", "time": "2026-06-19 01:10", "kind": "audio"},
@@ -214,7 +214,10 @@
       {"id": "music-5", "title": "Alicia Keys - If I Ain't Got You", "body": "收藏歌单 · 最喜欢的慢歌", "time": "2026-06-16 23:15", "kind": "audio"}
     ],
     "instagram": [
-      {"id": "ig-post-1", "title": "夏夜的伦敦还是会突然下雨", "body": "路过酋长球场外，和老伙计们约了下周吃饭。", "time": "2026-06-18 22:50", "sender": "Theo Walcott", "kind": "post", "likes": 1842, "comments": ["Aaron Ramsey: 下周见！", "Jack Wilshere: 别迟到 14 号"]}
+      {"id": "ig-post-1", "title": "塞维利亚的太阳很暖", "body": "听说那边的阳光比北伦敦好多了，应该很容易让人想起马赛吧。", "time": "2016-09-12 22:40", "sender": "tw_tiger", "kind": "post", "likes": 1, "comments": []},
+      {"id": "ig-post-2", "title": "伦敦的另一边", "body": "在伦敦的另一边看到熟悉的身影，明明离得那么近，还是装作没看见最好。", "time": "2019-01-05 23:15", "sender": "tw_tiger", "kind": "post", "likes": 0, "comments": []},
+      {"id": "ig-post-3", "title": "有些告别从来没说出口", "body": "以前总觉得来日方长，结果我们连一句像样的再见都没有。不许你这么快停下来。", "time": "2021-09-26 02:18", "sender": "tw_tiger", "kind": "post", "likes": 1, "comments": []},
+      {"id": "ig-post-4", "title": "12.14", "body": "十几年了，冬天的围脖还是那么显眼，有些歌单里的歌不敢删，有些置顶也一直没取消。", "time": "2025-12-14 03:05", "sender": "tw_tiger", "kind": "post", "likes": 0, "comments": []}
     ],
     "safari": [
       {"id": "safari-bm-1", "title": "Sky Sports 官网", "body": "https://www.skysports.com", "time": "2026-06-18 18:00", "kind": "text", "folder": "书签", "favorite": true},
