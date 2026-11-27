@@ -88,13 +88,13 @@ function MessageList({
   creator,
   onItem,
   onRead,
-  whatsapp = false,
+  whatsapp = false, extraCount = 0,
 }: {
   items: Item[];
   creator: boolean;
   onItem: (i: Item) => void;
   onRead: (id: string) => void;
-  whatsapp?: boolean;
+  whatsapp?: boolean; extraCount?: number;
 }) {
   const historyItems = whatsapp ? items.filter((i) => i.folder === "历史记录") : [];
   const liveItems = whatsapp ? items.filter((i) => i.folder !== "历史记录") : items;
@@ -103,7 +103,7 @@ const readTriggeredRef = useRef<Set<string>>(new Set());
 const containerRef = useRef<HTMLDivElement>(null);
 const historyReturnedRef = useRef(false); const historyTimerRef = useRef<number | null>(null); const justClickedRef = useRef(false); useEffect(() => () => { if (historyTimerRef.current !== null) { window.clearTimeout(historyTimerRef.current); historyTimerRef.current = null; } }, []);
 useEffect(() => { if (!whatsapp || creator || visibleCount <= 0) return; const item = liveItems[visibleCount - 1]; if (item && !readTriggeredRef.current.has(item.id)) { readTriggeredRef.current.add(item.id); onRead(item.id); } }, [whatsapp, creator, visibleCount, liveItems, onRead]);
-useEffect(() => { if (!whatsapp || creator) return; const el = containerRef.current; if (el && (visibleCount <= 2 || justClickedRef.current || el.scrollHeight - el.scrollTop - el.clientHeight < 120)) el.scrollTop = el.scrollHeight; justClickedRef.current = false; }, [whatsapp, creator, visibleCount]);
+useEffect(() => { if (!whatsapp || creator) return; const el = containerRef.current; if (el && (visibleCount <= 2 || justClickedRef.current || el.scrollHeight - el.scrollTop - el.clientHeight < 120)) el.scrollTop = el.scrollHeight; justClickedRef.current = false; }, [whatsapp, creator, visibleCount]); useEffect(() => { if (whatsapp && !creator && extraCount > 0) { setVisibleCount(liveItems.length); requestAnimationFrame(() => { const el = containerRef.current; if (el) el.scrollTop = el.scrollHeight; }); } }, [whatsapp, creator, extraCount, liveItems.length]);
 useEffect(() => { if (!whatsapp || creator) return; const handler = () => { historyReturnedRef.current = false; containerRef.current?.scrollTo({ top: 0, behavior: "smooth" }); }; window.addEventListener("fp-scroll-history-top", handler); return () => window.removeEventListener("fp-scroll-history-top", handler); }, [whatsapp, creator]); const displayed = whatsapp ? [...historyItems, ...liveItems.slice(0, creator ? liveItems.length : visibleCount)] : items;
   return (
     <div ref={whatsapp ? containerRef : undefined} className={`skin-messages ${whatsapp ? "wa-wallpaper" : ""}`} onClick={() => { if (whatsapp && !creator && visibleCount < liveItems.length) { justClickedRef.current = true; setVisibleCount((prev) => (prev < liveItems.length ? prev + 1 : prev)); } }} onScroll={(e) => { if (!whatsapp || creator || historyItems.length === 0 || historyReturnedRef.current) return; const el = e.currentTarget; if (el.scrollTop <= 32) { if (historyTimerRef.current === null) { historyTimerRef.current = window.setTimeout(() => { historyTimerRef.current = null; historyReturnedRef.current = true; el.scrollTo({ top: el.scrollHeight, behavior: "smooth" }); }, 1000); } } else if (historyTimerRef.current !== null) { window.clearTimeout(historyTimerRef.current); historyTimerRef.current = null; } }}>
@@ -122,16 +122,16 @@ return (<Fragment key={i.id}>{showDate && <div className="skin-date">{curDate}</
 function Compose({
   creator,
   onAdd,
-  wa = false,
+  wa = false, canSend, draft, onDraft, onSend,
 }: {
   creator: boolean;
   onAdd: () => void;
-  wa?: boolean;
+  wa?: boolean; canSend?: boolean; draft?: string; onDraft?: (v: string) => void; onSend?: () => void;
 }) {
   return (
     <div className={`skin-compose ${wa ? "wa-compose" : ""}`}>
       {wa ? <Plus size={20} /> : <Mic size={20} />}
-      <NativeComposer creator={creator} onAdd={onAdd} />
+      {canSend ? <form className="wa-compose-form" onSubmit={(e) => { e.preventDefault(); onSend?.(); }}><input className="wa-real-input" placeholder="输入消息…" value={draft ?? ""} onChange={(e) => onDraft?.(e.target.value)} /><button type="submit" className="wa-send-btn" aria-label="发送"><Send size={15} /></button></form> : <NativeComposer creator={creator} onAdd={onAdd} />}
 
       <Smile size={21} />
       {wa ? <Mic size={20} /> : <Plus size={22} />}
@@ -493,7 +493,7 @@ export function WeChatSkin(p: SkinProps) {
 export function WhatsAppSkin(p: SkinProps) {
   const [tab, setTab] = useState("聊天"),
     [query, setQuery] = useState(""),
-    [filter, setFilter] = useState("全部");
+    [filter, setFilter] = useState("全部"); const [extraMsgs, setExtraMsgs] = useState<Record<string, Item[]>>({}); const [draft, setDraft] = useState(""); const replyIdxRef = useRef(0);
   const tabs = [
     { label: "动态", icon: Compass },
     { label: "通话", icon: Phone },
@@ -553,13 +553,13 @@ export function WhatsAppSkin(p: SkinProps) {
             <Phone size={17} />
           </div>
           <MessageList
-            items={p.items.filter((i) => i.title === p.thread)}
+            items={[...p.items.filter((i) => i.title === p.thread), ...(extraMsgs[p.thread] ?? [])]}
             creator={p.creator}
             onItem={p.onItem}
             onRead={p.onRead}
-            whatsapp
+            whatsapp extraCount={(extraMsgs[p.thread] ?? []).length}
           />
-          <Compose creator={p.creator} onAdd={p.onAdd} wa />
+          <Compose creator={p.creator} onAdd={p.onAdd} wa canSend={!p.creator && p.thread === "Sami" && p.items.filter((i) => i.title === "Sami").length > 71} draft={draft} onDraft={setDraft} onSend={() => { const text = draft.trim(); if (!text) return; const now = new Date().toTimeString().slice(0, 5); const mk = (body: string, outgoing: boolean): Item => ({ id: `${Date.now()}-${Math.random()}`, title: "Sami", body, richText: "", meta: {}, time: now, sender: outgoing ? "我" : "Sami", avatar: "", kind: "text", media: "", hidden: false, unlock: "", password: "", folder: "", favorite: false, outgoing, read: true, likes: 0, comments: [] }); setExtraMsgs((prev) => ({ ...prev, Sami: [...(prev.Sami ?? []), mk(text, true)] })); setDraft(""); const replies = ["…你早干嘛去了", "那你现在想怎么样", "手机先拿回来再说吧", "行，我知道了"]; const reply = replies[replyIdxRef.current % replies.length]; replyIdxRef.current += 1; setTimeout(() => { setExtraMsgs((prev) => ({ ...prev, Sami: [...(prev.Sami ?? []), mk(reply, false)] })); }, 900); }} />
         </>
       ) : (
         <div className="skin-scroll">
