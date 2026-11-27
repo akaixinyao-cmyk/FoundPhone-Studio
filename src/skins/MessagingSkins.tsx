@@ -51,7 +51,7 @@ p.onRead(item.id);
 }, [tapToAdvance, shownItems, p]);
   
   return (
-    <div className={`catalog-bubbles ${className}`}> onClick={tapToAdvance ? () => setVisibleCount((c) => Math.min(c + 1, items.length)) : undefined}>
+    <div className={`catalog-bubbles ${className}`> onClick={tapToAdvance ? () => setVisibleCount((c) => Math.min(c + 1, items.length)) : undefined}>
       <time className="bubble-date">{items[0]?.time.slice(0, 10)}</time>
       {shownItems.map((i) => (
         <div
