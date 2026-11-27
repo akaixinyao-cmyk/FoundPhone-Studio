@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -32,20 +32,19 @@
   ],
   "contacts": [
     {"id": "contact-sami", "name": "Sami", "phone": "", "avatar": "", "bio": ""},
-    {"id": "contact-melanie", "name": "Melanie Slade", "phone": "+44 7700 900201", "avatar": "", "bio": "家人 · 妻子"},
-    {"id": "contact-don", "name": "Don Walcott", "phone": "+44 7700 900202", "avatar": "", "bio": "家人 · 父亲"},
-    {"id": "contact-lynn-mom", "name": "Lynn Walcott", "phone": "+44 7700 900203", "avatar": "", "bio": "家人 · 母亲"},
-    {"id": "contact-ashley", "name": "Ashley Walcott", "phone": "+44 7700 900204", "avatar": "", "bio": "家人 · 哥哥"},
-    {"id": "contact-ramsey", "name": "Aaron Ramsey", "phone": "+44 7700 900116", "avatar": "", "bio": "前队友 · 周末偶尔约球或聚餐"},
-    {"id": "contact-wilshere", "name": "Jack Wilshere", "phone": "+44 7700 900110", "avatar": "", "bio": "前队友 · 北伦敦老友"},
-    {"id": "contact-gibbs", "name": "Kieran Gibbs", "phone": "+44 7700 900128", "avatar": "", "bio": "前队友 · 经常一起打高尔夫"},
-    {"id": "contact-oxlade", "name": "Alex Oxlade-Chamberlain", "phone": "+44 7700 900115", "avatar": "", "bio": "前队友"},
-    {"id": "contact-giroud", "name": "Olivier Giroud", "phone": "+33 6 44 18 12 09", "avatar": "", "bio": "前队友"},
-    {"id": "contact-szczesny", "name": "Wojciech Szczęsny", "phone": "+48 600 412 001", "avatar": "", "bio": "前队友 · 门将"},
-    {"id": "contact-kelly", "name": "Kelly Cates", "phone": "+44 7700 900811", "avatar": "", "bio": "Sky Sports 节目主持人"},
-    {"id": "contact-carra", "name": "Jamie Carragher", "phone": "+44 7700 900823", "avatar": "", "bio": "Sky Sports 解说搭档"},
-    {"id": "contact-micah", "name": "Micah Richards", "phone": "+44 7700 900845", "avatar": "", "bio": "电视台节目嘉宾"},
-    {"id": "contact-david", "name": "David Henderson", "phone": "+44 7700 900890", "avatar": "", "bio": "Sky Sports 节目制片人"}
+    {"id": "contact-don", "name": "Don Walcott", "phone": "+44 7700 900202", "avatar": "", "bio": ""},
+    {"id": "contact-lynn-mom", "name": "Lynn Walcott", "phone": "+44 7700 900203", "avatar": "", "bio": ""},
+    {"id": "contact-ashley", "name": "Ashley Walcott", "phone": "+44 7700 900204", "avatar": "", "bio": ""},
+    {"id": "contact-ramsey", "name": "Aaron Ramsey", "phone": "+44 7700 900116", "avatar": "", "bio": ""},
+    {"id": "contact-wilshere", "name": "Jack Wilshere", "phone": "+44 7700 900110", "avatar": "", "bio": ""},
+    {"id": "contact-gibbs", "name": "Kieran Gibbs", "phone": "+44 7700 900128", "avatar": "", "bio": ""},
+    {"id": "contact-oxlade", "name": "Alex Oxlade-Chamberlain", "phone": "+44 7700 900115", "avatar": "", "bio": ""},
+    {"id": "contact-giroud", "name": "Olivier Giroud", "phone": "+33 6 44 18 12 09", "avatar": "", "bio": ""},
+    {"id": "contact-szczesny", "name": "Wojciech Szczęsny", "phone": "+48 600 412 001", "avatar": "", "bio": ""},
+    {"id": "contact-kelly", "name": "Kelly Cates", "phone": "+44 7700 900811", "avatar": "", "bio": ""},
+    {"id": "contact-carra", "name": "Jamie Carragher", "phone": "+44 7700 900823", "avatar": "", "bio": ""},
+    {"id": "contact-micah", "name": "Micah Richards", "phone": "+44 7700 900845", "avatar": "", "bio": ""},
+    {"id": "contact-david", "name": "David Henderson", "phone": "+44 7700 900890", "avatar": "", "bio": ""}
   ],
   "chats": [
     {
@@ -159,16 +158,6 @@
       ]
     },
     {
-      "id": "chat-melanie",
-      "app": "whatsapp",
-      "title": "Melanie Slade",
-      "participants": ["owner", "contact-melanie"],
-      "messages": [
-        {"id": "msg-mel-1", "title": "Melanie Slade", "body": "晚上回来记得把门锁好，牛奶我放在玄关柜上了。", "time": "2026-06-18 22:15", "sender": "Melanie Slade", "senderId": "contact-melanie", "kind": "text", "read": true},
-        {"id": "msg-mel-2", "title": "Melanie Slade", "body": "好，和台里对完稿子就回去。", "time": "2026-06-18 22:20", "sender": "Theo Walcott", "senderId": "owner", "kind": "text", "outgoing": true, "read": true}
-      ]
-    },
-    {
       "id": "chat-sms-david",
       "app": "messages",
       "title": "David Henderson",
@@ -214,9 +203,8 @@
     "notes": [
       {"id": "note-work-prep", "title": "周末解说提纲", "body": "1. 边路反击节奏与肋部插上时机\n2. 赛前连线 Kelly 和 Jamie 确认耳返\n3. 周六上午 10:30 到 Sky Studio", "time": "2026-06-18 17:30", "kind": "note", "folder": "工作"},
       {"id": "note-reunion-list", "title": "下周老友聚会备忘", "body": "Aaron、Jack、Gibbsy、Ollie、Olivier。\n记得带回以前那本签名册。", "time": "2026-06-18 20:45", "kind": "note", "folder": "生活"},
-      {"id": "note-grocery", "title": "家里采购清单", "body": "燕麦奶、黑咖啡豆、孩子周末训练用的新护腿板。", "time": "2026-06-17 12:10", "kind": "note", "folder": "生活"},
-      {"id": "note-draft-pinned", "title": "未发出的草稿", "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十多年过去，早就不指望回复，只是怕取消置顶之后，连那几年存在过的痕迹都会沉到底下去。", "time": "2024-03-14 02:11", "kind": "note", "folder": "随笔"},
-      {"id": "note-unforgettable", "title": "unforgettable", "body": "关于 Samir：\n1. 他每次赛前系鞋带一定要先系右脚，热身时喜欢把球衣下摆塞进去一半。\n2. 2011 年夏天他去曼彻斯特之前，我们在北伦敦公寓楼下淋了一场大雨，谁都没提“以后还联不联系”。\n3. 2013 年 12 月 14 日那场 3-6 之后并不是真的在气那六个球。只是后来大家都太忙、太骄傲，谁也没再先低头。\n4. 0814 是我一直没改过的密码，也是我唯一没有删掉的置顶。", "time": "2014-01-10 02:30", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true}
+      {"id": "note-draft-pinned", "title": "未发出的草稿", "body": "换过三次手机，每次迁移聊天记录时都顺手把那个对话框重新置顶了。十多年过去，早就不指望回复，只是怕取消置顶之后，连那几年存在过的痕迹都会沉到底下去。", "time": "2024-03-14 02:11", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true},
+      {"id": "note-unforgettable", "title": "unforgettable", "body": "关于 Samir：\n1. 很爱吃黑巧克力和夹心松露，每次赛前包里都会塞两块，被队医没收还会悄悄再藏。\n2. 平时看起来嘴硬又爱怼人，其实笑起来两边会有很浅的酒窝。\n3. 赛前系鞋带一定要先系右脚，热身时喜欢把球衣下摆塞进去一半。\n4. 训练完总爱听法语说唱，还老是抢走我包里最后一瓶冰水。\n5. 2013 年 12 月 14 日那场 3-6 之后并不是真的在气那六个球。只是后来大家都太忙、太骄傲，谁也没再先低头。\n6. 0814 是我一直没改过的密码，也是我唯一没有删掉的置顶。", "time": "2014-01-10 02:30", "kind": "note", "folder": "私人笔记", "password": "0814", "hidden": true}
     ],
     "music": [
       {"id": "music-1", "title": "Coldplay - Fix You", "body": "Theo 最常单曲循环的歌之一 · 2011 年起就在歌单里", "time": "2026-06-19 01:10", "kind": "audio"},
@@ -229,8 +217,13 @@
       {"id": "ig-post-1", "title": "夏夜的伦敦还是会突然下雨", "body": "路过酋长球场外，和老伙计们约了下周吃饭。", "time": "2026-06-18 22:50", "sender": "Theo Walcott", "kind": "post", "likes": 1842, "comments": ["Aaron Ramsey: 下周见！", "Jack Wilshere: 别迟到 14 号"]}
     ],
     "safari": [
-      {"id": "safari-1", "title": "Sky Sports 本周赛程与数据统计", "body": "历史记录 · 2026-06-18", "time": "2026-06-18 18:50", "kind": "text"},
-      {"id": "safari-2", "title": "Samir Nasri 近期动态", "body": "搜索记录 · 2026-06-18", "time": "2026-06-18 23:55", "kind": "text"}
+      {"id": "safari-bm-1", "title": "Sky Sports 官网", "body": "https://www.skysports.com", "time": "2026-06-18 18:00", "kind": "text", "folder": "书签", "favorite": true},
+      {"id": "safari-bm-2", "title": "BBC Sport 官网", "body": "https://www.bbc.com/sport", "time": "2026-06-18 18:05", "kind": "text", "folder": "书签", "favorite": true},
+      {"id": "safari-bm-3", "title": "ITV Football 官网", "body": "https://www.itv.com/football", "time": "2026-06-18 18:10", "kind": "text", "folder": "书签", "favorite": true},
+      {"id": "safari-bm-4", "title": "TNT Sports 官网", "body": "https://www.tntsports.co.uk", "time": "2026-06-18 18:15", "kind": "text", "folder": "书签", "favorite": true},
+      {"id": "safari-hist-1", "title": "忘不掉前任怎么办", "body": "搜索记录 · 2026-06-19 01:20", "time": "2026-06-19 01:20", "kind": "text", "folder": "历史记录"},
+      {"id": "safari-hist-2", "title": "为什么十多年了还是放不下一个人", "body": "搜索记录 · 2026-06-19 01:25", "time": "2026-06-19 01:25", "kind": "text", "folder": "历史记录"},
+      {"id": "safari-hist-3", "title": "Samir Nasri 近期动态", "body": "搜索记录 · 2026-06-18 23:55", "time": "2026-06-18 23:55", "kind": "text", "folder": "历史记录"}
     ]
   },
   "variables": {},
@@ -285,6 +278,7 @@
         {"type": "unlock", "key": "photo-nasri-1", "value": true},
         {"type": "unlock", "key": "photo-nasri-2", "value": true},
         {"type": "unlock", "key": "photo-nasri-3", "value": true},
+        {"type": "unlock", "key": "note-draft-pinned", "value": true},
         {"type": "unlock", "key": "note-unforgettable", "value": true},
         {"type": "notification", "key": "", "value": "现可自由使用手机"}
       ]
@@ -311,6 +305,7 @@
       "steps": [
         {"event": "read", "target": "msg-sami-12"},
         {"event": "read", "target": "msg-sami-43"},
+        {"event": "read", "target": "note-draft-pinned", "password": "0814"},
         {"event": "read", "target": "note-unforgettable", "password": "0814"},
         {"event": "read", "target": "photo-nasri-1", "password": "0814"},
         {"event": "finish", "target": "chapter1"}
@@ -324,8 +319,8 @@
         "hist-sami-17", "hist-sami-18", "hist-sami-19", "hist-sami-20",
         "hist-sami-21", "hist-sami-22", "hist-sami-23", "hist-sami-24",
         "hist-sami-25", "hist-sami-26", "hist-sami-27", "hist-sami-28",
-        "photo-nasri-1", "photo-nasri-2", "photo-nasri-3", "note-unforgettable"
+        "photo-nasri-1", "photo-nasri-2", "photo-nasri-3", "note-draft-pinned", "note-unforgettable"
       ]
     }
   ]
-}
+}Sami
