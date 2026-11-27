@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 14,
+  "revision": 15,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -1148,6 +1148,778 @@
             "pinned": "true"
           },
           "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-1",
+          "title": "Sami",
+          "body": "不好意思，之前打扰到你了",
+          "time": "2026-06-22 03:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-2",
+          "title": "Sami",
+          "body": "？？",
+          "time": "2026-06-22 03:20",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-3",
+          "title": "Sami",
+          "body": "又想干嘛？",
+          "time": "2026-06-22 03:20",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-4",
+          "title": "Sami",
+          "body": "和你道个歉，捡到手机的人和我说了，他找了你，以为你能联系到我",
+          "time": "2026-06-22 03:22",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-5",
+          "title": "Sami",
+          "body": "你不会是在耍我吧？",
+          "time": "2026-06-22 03:23",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-6",
+          "title": "Sami",
+          "body": "没有，真的是手机丢了被捡到了，我没设置密码",
+          "time": "2026-06-22 03:23",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-7",
+          "title": "Sami",
+          "body": "你还是电子白痴",
+          "time": "2026-06-22 03:24",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-8",
+          "title": "Sami",
+          "body": "还有吗",
+          "time": "2026-06-22 03:24",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-9",
+          "title": "Sami",
+          "body": "没有就不要继续浪费我时间了",
+          "time": "2026-06-22 03:26",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-10",
+          "title": "Sami",
+          "body": "就是。。。你可以直接无视的。。。你还是回了消息",
+          "time": "2026-06-22 03:26",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-11",
+          "title": "Sami",
+          "body": "我在想。。。你是不是还没放下。。。",
+          "time": "2026-06-22 03:26",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-12",
+          "title": "Sami",
+          "body": "什么逻辑？",
+          "time": "2026-06-22 16:02",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-13",
+          "title": "Sami",
+          "body": "我还没问你为什么我的聊天还是置顶",
+          "time": "2026-06-22 16:05",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-14",
+          "title": "Sami",
+          "body": "为什么突然不回我消息",
+          "time": "2026-06-22 16:06",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-15",
+          "title": "Sami",
+          "body": "装作没看见我",
+          "time": "2026-06-22 16:06",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-16",
+          "title": "Sami",
+          "body": "不知道我是拖着伤腿来的吗",
+          "time": "2026-06-22 16:06",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-17",
+          "title": "Sami",
+          "body": "。。。",
+          "time": "2026-06-22 16:09",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-18",
+          "title": "Sami",
+          "body": "不敢回复你",
+          "time": "2026-06-22 16:12",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-19",
+          "title": "Sami",
+          "body": "没办法给你任何承诺",
+          "time": "2026-06-22 16:12",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-20",
+          "title": "Sami",
+          "body": "不敢见你",
+          "time": "2026-06-22 16:12",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-21",
+          "title": "Sami",
+          "body": "怕见了你就会抛下一切",
+          "time": "2026-06-22 16:13",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-22",
+          "title": "Sami",
+          "body": "在这装文艺呢",
+          "time": "2026-06-22 19:17",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-23",
+          "title": "Sami",
+          "body": "给你的聊天置顶是不想忘记你",
+          "time": "2026-06-22 19:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-24",
+          "title": "Sami",
+          "body": "不想忘记我们的点点滴滴",
+          "time": "2026-06-22 19:19",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-25",
+          "title": "Sami",
+          "body": "我会把我们聊天记录翻出来看",
+          "time": "2026-06-22 19:20",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-26",
+          "title": "Sami",
+          "body": "每次换手机都会检查好备份",
+          "time": "2026-06-22 19:20",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-27",
+          "title": "Sami",
+          "body": "不会丢掉的",
+          "time": "2026-06-22 19:20",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-28",
+          "title": "Sami",
+          "body": "现在在这里装深情？",
+          "time": "2026-06-22 19:21",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-29",
+          "title": "Sami",
+          "body": "在我低谷期你人在哪里？",
+          "time": "2026-06-22 19:22",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-30",
+          "title": "Sami",
+          "body": "我知道你不好过",
+          "time": "2026-06-22 03:17",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-31",
+          "title": "Sami",
+          "body": "我也很心痛",
+          "time": "2026-06-22 03:17",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-32",
+          "title": "Sami",
+          "body": "但我知道你很坚强",
+          "time": "2026-06-22 03:17",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-33",
+          "title": "Sami",
+          "body": "没我你也能过得很好",
+          "time": "2026-06-22 03:18",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-34",
+          "title": "Sami",
+          "body": "这是理由？",
+          "time": "2026-06-22 03:23",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-35",
+          "title": "Sami",
+          "body": "你是不是真有病？",
+          "time": "2026-06-22 03:24",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-36",
+          "title": "Sami",
+          "body": "有病去看病吧",
+          "time": "2026-06-22 03:24",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-37",
+          "title": "Sami",
+          "body": "我是认真的",
+          "time": "2026-06-22 03:42",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-38",
+          "title": "Sami",
+          "body": "我怕你给我拉黑了",
+          "time": "2026-06-22 03:47",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-39",
+          "title": "Sami",
+          "body": "或者再看到我的消息就会拉黑我",
+          "time": "2026-06-22 04:21",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-40",
+          "title": "Sami",
+          "body": "所以不敢给你发消息",
+          "time": "2026-06-22 04:21",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-41",
+          "title": "Sami",
+          "body": "？",
+          "time": "2026-06-22 04:21",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-42",
+          "title": "Sami",
+          "body": "你不给我发消息和被我拉黑有什么区别",
+          "time": "2026-06-22 04:21",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-43",
+          "title": "Sami",
+          "body": "被我拉黑的话你至少还能多发一条",
+          "time": "2026-06-22 04:21",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-44",
+          "title": "Sami",
+          "body": "被拉黑",
+          "time": "2026-06-22 04:22",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-45",
+          "title": "Sami",
+          "body": "我接受不了",
+          "time": "2026-06-22 04:22",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-46",
+          "title": "Sami",
+          "body": "真正被拉黑的是我吧",
+          "time": "2026-06-22 04:24",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-47",
+          "title": "Sami",
+          "body": "发你消息不回复还以为被屏蔽了",
+          "time": "2026-06-22 04:25",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-48",
+          "title": "Sami",
+          "body": "我想回你",
+          "time": "2026-06-22 09:03",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-49",
+          "title": "Sami",
+          "body": "但是没法给你承诺",
+          "time": "2026-06-22 09:03",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-50",
+          "title": "Sami",
+          "body": "我从来没要你给我什么承诺",
+          "time": "2026-06-22 10:42",
+          "sender": "Sami",
+          "senderId": "contact-sami",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          }
+        },
+        {
+          "id": "msg-sami-p2-51",
+          "title": "Sami",
+          "body": "但是 Sami...我们当年真的能一直随波逐流下去吗...",
+          "time": "2026-06-22 10:43",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-52",
+          "title": "Sami",
+          "body": "我想让你属于我",
+          "time": "2026-06-22 10:43",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
+        },
+        {
+          "id": "msg-sami-p2-53",
+          "title": "Sami",
+          "body": "只属于...我的...",
+          "time": "2026-06-22 10:44",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "meta": {
+            "pinned": "true"
+          },
+          "outgoing": true
         }
       ]
     },
@@ -1317,6 +2089,155 @@
           "senderId": "contact-ramsey",
           "kind": "text",
           "read": true
+        }
+      ]
+    },
+    {
+      "id": "chat-sms-don",
+      "app": "messages",
+      "title": "Don Walcott",
+      "participants": [
+        "owner",
+        "contact-don"
+      ],
+      "messages": [
+        {
+          "id": "msg-don-1",
+          "title": "Don Walcott",
+          "body": "你好，我是这个手机的主人，如果你捡到这个手机，可以麻烦你还给我吗？",
+          "time": "2026-06-19 04:05",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-2",
+          "title": "Don Walcott",
+          "body": "可以。你是那个球星Theo Walcott吗？我在电视上看到过你。",
+          "time": "2026-06-19 04:06",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
+        },
+        {
+          "id": "msg-don-3",
+          "title": "Don Walcott",
+          "body": "是的。手机你还给我必有重谢。",
+          "time": "2026-06-19 04:06",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-4",
+          "title": "Don Walcott",
+          "body": "我可以还给你，不用谢我，就是想八卦一句，你置顶的那个Sami是谁？没听过你有这个队友。",
+          "time": "2026-06-19 04:07",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
+        },
+        {
+          "id": "msg-don-5",
+          "title": "Don Walcott",
+          "body": "不管你的事，手机还我就好了。",
+          "time": "2026-06-19 04:07",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-6",
+          "title": "Don Walcott",
+          "body": "问都不让问吗？你们俩怎么都这样。",
+          "time": "2026-06-19 04:08",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
+        },
+        {
+          "id": "msg-don-7",
+          "title": "Don Walcott",
+          "body": "什么意思？",
+          "time": "2026-06-19 04:08",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-8",
+          "title": "Don Walcott",
+          "body": "我给他发消息了。他好像看到你的名字就很生气啊。",
+          "time": "2026-06-19 04:09",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
+        },
+        {
+          "id": "msg-don-9",
+          "title": "Don Walcott",
+          "body": "他回复你了？",
+          "time": "2026-06-19 04:09",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-10",
+          "title": "Don Walcott",
+          "body": "对。然后我就没说什么。",
+          "time": "2026-06-19 04:10",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
+        },
+        {
+          "id": "msg-don-11",
+          "title": "Don Walcott",
+          "body": "请务必把手机还给我。",
+          "time": "2026-06-19 04:10",
+          "sender": "Don Walcott",
+          "senderId": "contact-don",
+          "kind": "text",
+          "hidden": true,
+          "read": false
+        },
+        {
+          "id": "msg-don-12",
+          "title": "Don Walcott",
+          "body": "行吧，说个地方。算我多嘴，我觉得他还挺在意你的。",
+          "time": "2026-06-19 04:11",
+          "sender": "Theo Walcott",
+          "senderId": "owner",
+          "kind": "text",
+          "hidden": true,
+          "read": true,
+          "outgoing": true
         }
       ]
     }
@@ -1666,7 +2587,9 @@
       }
     ]
   },
-  "variables": {},
+  "variables": {
+    "reboot_now": false
+  },
   "events": [
     {
       "id": "ev-unlock-history",
@@ -1879,32 +2802,455 @@
       ]
     },
     {
-      "id": "ev-finish-chapter1",
-      "label": "章节归档检查点",
+      "id": "ev-trigger-don-sms",
+      "label": "探索完所有 App 与加密内容后收到 Don Walcott 短信",
       "type": "event",
-      "event": "finish",
-      "target": "chapter1",
+      "event": "",
+      "target": "",
       "once": true,
-      "next": [
-        "ev-ending-chapter1"
+      "logic": "and",
+      "conditions": [
+        {
+          "key": "visited:phone",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:messages",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:contacts",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:photos",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:notes",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:music",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:instagram",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "visited:safari",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:note-draft-pinned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:note-unforgettable",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "key": "read:photo-nasri-1",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "msg-don-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-4",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-5",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-6",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-7",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-8",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-9",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-don-12",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "短信：Don Walcott 发来一条新消息"
+        }
       ]
     },
     {
-      "id": "ev-ending-chapter1",
-      "label": "第一段对话结束",
+      "id": "ev-reboot-and-part2",
+      "label": "读完 Don Walcott 短信后关机重启并开启第二段对话",
+      "type": "event",
+      "event": "read",
+      "target": "msg-don-12",
+      "once": true,
+      "actions": [
+        {
+          "type": "variable",
+          "key": "reboot_now",
+          "value": true
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-06-22"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "10:44"
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-3",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-4",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-5",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-6",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-7",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-8",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-9",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-10",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-11",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-12",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-13",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-14",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-15",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-16",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-17",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-18",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-19",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-20",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-21",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-22",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-23",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-24",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-25",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-26",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-27",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-28",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-29",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-30",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-31",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-32",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-33",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-34",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-35",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-36",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-37",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-38",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-39",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-40",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-41",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-42",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-43",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-44",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-45",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-46",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-47",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-48",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-49",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-50",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-51",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-52",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "msg-sami-p2-53",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "ev-ending-part2",
+      "label": "后半部分对话结束",
+      "type": "event",
+      "event": "read",
+      "target": "msg-sami-p2-53",
+      "once": true,
+      "next": [
+        "ev-ending-final"
+      ]
+    },
+    {
+      "id": "ev-ending-final",
+      "label": "只属于…我的…",
       "type": "ending",
       "actions": [
         {
           "type": "ending",
           "key": "",
-          "value": "第一段对话已结束，现可自由探索手机。"
+          "value": "完结：我想让你属于我，只属于…我的…"
         }
       ]
     }
   ],
   "tests": [
     {
-      "name": "点击推进对话、解锁历史与0814加密相册/备忘录",
+      "name": "完整主线：探索全部App与加密内容 -> Don短信 -> 重启进入第二段Sami对话",
       "steps": [
         {
           "event": "read",
@@ -1913,6 +3259,38 @@
         {
           "event": "read",
           "target": "msg-sami-43"
+        },
+        {
+          "event": "openApp",
+          "target": "phone"
+        },
+        {
+          "event": "openApp",
+          "target": "messages"
+        },
+        {
+          "event": "openApp",
+          "target": "contacts"
+        },
+        {
+          "event": "openApp",
+          "target": "photos"
+        },
+        {
+          "event": "openApp",
+          "target": "notes"
+        },
+        {
+          "event": "openApp",
+          "target": "music"
+        },
+        {
+          "event": "openApp",
+          "target": "instagram"
+        },
+        {
+          "event": "openApp",
+          "target": "safari"
         },
         {
           "event": "read",
@@ -1930,11 +3308,15 @@
           "password": "0814"
         },
         {
-          "event": "finish",
-          "target": "chapter1"
+          "event": "read",
+          "target": "msg-don-12"
+        },
+        {
+          "event": "read",
+          "target": "msg-sami-p2-53"
         }
       ],
-      "ending": "第一段对话已结束，现可自由探索手机。",
+      "ending": "完结：我想让你属于我，只属于…我的…",
       "expectUnlocked": [
         "hist-sami-1",
         "hist-sami-2",
@@ -1971,7 +3353,72 @@
         "photo-nasri-5",
         "photo-nasri-6",
         "note-draft-pinned",
-        "note-unforgettable"
+        "note-unforgettable",
+        "msg-don-1",
+        "msg-don-2",
+        "msg-don-3",
+        "msg-don-4",
+        "msg-don-5",
+        "msg-don-6",
+        "msg-don-7",
+        "msg-don-8",
+        "msg-don-9",
+        "msg-don-10",
+        "msg-don-11",
+        "msg-don-12",
+        "msg-sami-p2-1",
+        "msg-sami-p2-2",
+        "msg-sami-p2-3",
+        "msg-sami-p2-4",
+        "msg-sami-p2-5",
+        "msg-sami-p2-6",
+        "msg-sami-p2-7",
+        "msg-sami-p2-8",
+        "msg-sami-p2-9",
+        "msg-sami-p2-10",
+        "msg-sami-p2-11",
+        "msg-sami-p2-12",
+        "msg-sami-p2-13",
+        "msg-sami-p2-14",
+        "msg-sami-p2-15",
+        "msg-sami-p2-16",
+        "msg-sami-p2-17",
+        "msg-sami-p2-18",
+        "msg-sami-p2-19",
+        "msg-sami-p2-20",
+        "msg-sami-p2-21",
+        "msg-sami-p2-22",
+        "msg-sami-p2-23",
+        "msg-sami-p2-24",
+        "msg-sami-p2-25",
+        "msg-sami-p2-26",
+        "msg-sami-p2-27",
+        "msg-sami-p2-28",
+        "msg-sami-p2-29",
+        "msg-sami-p2-30",
+        "msg-sami-p2-31",
+        "msg-sami-p2-32",
+        "msg-sami-p2-33",
+        "msg-sami-p2-34",
+        "msg-sami-p2-35",
+        "msg-sami-p2-36",
+        "msg-sami-p2-37",
+        "msg-sami-p2-38",
+        "msg-sami-p2-39",
+        "msg-sami-p2-40",
+        "msg-sami-p2-41",
+        "msg-sami-p2-42",
+        "msg-sami-p2-43",
+        "msg-sami-p2-44",
+        "msg-sami-p2-45",
+        "msg-sami-p2-46",
+        "msg-sami-p2-47",
+        "msg-sami-p2-48",
+        "msg-sami-p2-49",
+        "msg-sami-p2-50",
+        "msg-sami-p2-51",
+        "msg-sami-p2-52",
+        "msg-sami-p2-53"
       ]
     }
   ]
