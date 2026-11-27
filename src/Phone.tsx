@@ -143,6 +143,9 @@ function PhoneRuntime({
   const [banner, setBanner] = useState("");
   const noticesSeen = useRef(0);
   const [contextApp, setContextApp] = useState("");
+  const [rebooting, setRebooting] = useState(false);
+  const [rebootKey, setRebootKey] = useState(0);
+  const rebootDoneRef = useRef(false);
   const [deviceScale, setDeviceScale] = useState(0.84);
   const shell = useRef<HTMLDivElement>(null);
   const gesture = useRef({ x: 0, y: 0, time: 0, zone: "" });
@@ -196,6 +199,18 @@ function PhoneRuntime({
     setOwn(next);
     onRuntime?.(next);
   };
+  useEffect(() => {
+      if (s.variables?.reboot_now === true && !rebootDoneRef.current) {
+        rebootDoneRef.current = true;
+        setRebooting(true);
+        setTimeout(() => {
+          setRebooting(false);
+          setLocked(false);
+          setApp("whatsapp");
+          setRebootKey((k) => k + 1);
+          }, 2200);
+      }
+    }, [s.variables?.reboot_now]);
   useEffect(() => {
     let active = true;
     if (creator || external) return;
@@ -442,8 +457,9 @@ function PhoneRuntime({
                 origin={launchOrigin}
               >
                 <AppContent
+                  key={`${app}-${rebootKey}`}
                   app={plugin}
-                  initialThread={app === work.phone.startApp ? work.phone.startThread : undefined}
+                  initialThread={rebootKey > 0 && app === "whatsapp" ? "Sami" : app === work.phone.startApp ? work.phone.startThread : undefined}
                   name={
                     work.apps.find((a) => a.id === app)?.name ?? plugin.name
                   }
@@ -684,7 +700,7 @@ function PhoneRuntime({
               className="device-banner"
               onClick={() => {
                 setBanner("");
-                if (banner.includes("历史记录")) { setApp("whatsapp"); window.dispatchEvent(new CustomEvent("fp-scroll-history-top")); } else { setPanel("notification"); }
+              if (banner.includes("Don Walcott")) { setApp("messages"); } else   if (banner.includes("历史记录")) { setApp("whatsapp"); window.dispatchEvent(new CustomEvent("fp-scroll-history-top")); } else { setPanel("notification"); }
               }}
             >
               <AppIcon
@@ -793,6 +809,7 @@ function PhoneRuntime({
           />
           <div className="screen-dimmer" />
           <div className="hardware-reflection" />
+      {rebooting && <div className="device-reboot"><div className="reboot-spinner" /><span>正在关机重启…</span></div>}
         </div>
       </KeyboardContext.Provider>
     </div>
