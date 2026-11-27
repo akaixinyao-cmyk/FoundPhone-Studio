@@ -3,7 +3,7 @@
   "id": "walcott-nasri-pinned-chat",
   "title": "捡手机：Sami",
   "description": "沃尔科特和纳斯里曾经是情侣，十多年没有联系，但他的聊天框一直置顶。",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "Theo Walcott",
     "date": "2026-06-19",
@@ -19,16 +19,16 @@
     "startThread": "Sami"
   },
   "installedApps": [
-    "appstore",
+    
     "phone",
     "messages",
     "contacts",
     "photos",
     "notes",
-    "calendar",
-    "clock",
+    
+    
     "music",
-    "weather",
+    
     "settings",
     "whatsapp",
     "instagram",
@@ -1040,15 +1040,7 @@
         "hidden": true
       }
     ],
-    "calendar": [
-      {
-        "id": "cal-live",
-        "title": "演播室录影",
-        "body": "地点：Sky Studio\n时间：10:30 - 14:00",
-        "time": "2026-06-19 10:30",
-        "kind": "event"
-      }
-    ],
+    
     "music": [
       {
         "id": "music-playlist",
