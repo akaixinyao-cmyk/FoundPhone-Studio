@@ -94,11 +94,17 @@ function ChatRows({
   items: Item[];
   round?: boolean;
 }) {
-  const names = [...new Set(items.map((i) => i.title))];
+  const names = [...new Set(items.map((i) => i.title))].sort((a, b) => {
+    const aLast = items.filter((i) => i.title === a).at(-1)!;
+    const bLast = items.filter((i) => i.title === b).at(-1)!;
+    return bLast.time.localeCompare(aLast.time);
+    });
   return (
     <>
       {names.map((name) => {
-        const last = items.filter((i) => i.title === name).at(-1)!;
+        const msgs = items.filter((i) => i.title === name);
+      const preview = !p.creator && p.appId === "messages" && name === "Don Walcott" ? msgs[0] : msgs.at(-1)!;
+      const last = items.filter((i) => i.title === name).at(-1)!;
         return (
           <button
             className="catalog-chat"
@@ -111,9 +117,9 @@ function ChatRows({
             <Avatar name={name} src={last.avatar} round={round} />
             <span>
               <strong>{name}</strong>
-              <p>{last.body}</p>
+              <p>{preview.body}</p>
             </span>
-            <time>{last.time.slice(-5)}</time>
+            <time>preview{.time.slice(-5)}</time>
           </button>
         );
       })}
